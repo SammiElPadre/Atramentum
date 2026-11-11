@@ -23,7 +23,7 @@ Atramentum ist ein kostenloses Schreibprogramm für Romane und andere lange Text
 | **Mac** (macOS 13+, Apple-Chip und Intel) | [Atramentum-0.1.1.dmg](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.1/Atramentum-0.1.1.dmg) (15 MB) | [Installation Mac](docs/Installation-Mac.txt) |
 | **Windows** 10 und 11 (64 Bit) | [Atramentum_0.1.1_x64-setup.exe](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.1/Atramentum_0.1.1_x64-setup.exe) (4 MB) | [Installation Windows](docs/Installation-Windows.txt) |
 
-Windows und Linux folgen in Kürze.
+Linux folgt in Kürze.
 
 Prüfsummen und Rettungswerkzeuge: [Release-Seite](https://github.com/SammiElPadre/Atramentum/releases/tag/v0.1.1).
 <!-- /DOWNLOAD -->
