@@ -1,0 +1,71 @@
+ATRAMENTUM FÜR LINUX – INSTALLATION (TESTFASSUNG)
+================================================
+
+Atramentum ist kostenlos. Es gibt keine Bezahlversion, kein Konto und keine
+Anmeldung. Atramentum braucht kein Internet und sendet keine Daten.
+
+Voraussetzung: 64-Bit-Linux (x86_64) mit grafischer Oberfläche, etwa
+Ubuntu 22.04 oder neuer, Debian 12, Fedora 39 oder Linux Mint 21.
+
+Dies ist eine Testfassung. Bitte legen Sie regelmäßig Sicherungen an
+(Datei > Sicherung erstellen …) und melden Sie Auffälligkeiten.
+
+
+1. Installieren – zwei Wege
+---------------------------
+a) Ubuntu, Debian, Mint (empfohlen): das .deb-Paket
+
+       sudo apt install ./Atramentum_<Version>_amd64.deb
+
+   Atramentum erscheint danach im Anwendungsmenü.
+
+b) Alle anderen Distributionen: das AppImage (ohne Installation)
+
+       chmod +x Atramentum_<Version>_amd64.AppImage
+       ./Atramentum_<Version>_amd64.AppImage
+
+   Meldet das System „libfuse.so.2 fehlt“: unter Ubuntu 24.04
+   „sudo apt install libfuse2t64“, unter älteren „sudo apt install libfuse2“.
+
+Für den PDF-Export in Times wird die Schrift „Liberation Serif“ genutzt
+(Paket fonts-liberation, meist vorinstalliert). Ohne sie steht nur die
+Vorlage „Normseite“ (Courier) zur Verfügung.
+
+
+2. Aktualisieren
+----------------
+Neue Version wie oben installieren bzw. das neue AppImage verwenden.
+Ihre Projekte liegen im Ordner ~/Atramentum und bleiben unberührt.
+Bei einem neuen Dateiformat legt Atramentum vor dem Umstellen automatisch
+eine Sicherung des Projekts an.
+
+
+3. Entfernen
+------------
+  - Programm: „sudo apt remove atramentum“ bzw. das AppImage löschen.
+  - Einstellungen und automatische tägliche Sicherungen (optional):
+      ~/.local/share/io.github.sammielpadre.atramentum
+      ~/.cache/io.github.sammielpadre.atramentum
+  - Ihre Projekte in ~/Atramentum werden NICHT gelöscht.
+
+
+4. Rettungswerkzeug
+-------------------
+„atramentum-rettung“ liest ein Projekt ohne die App und schreibt alle Texte
+als lesbare Dateien heraus, falls Atramentum einmal nicht startet:
+
+    chmod +x atramentum-rettung
+    ./atramentum-rettung ~/Atramentum/"Mein Roman.atramentum" ~/Rettung
+
+
+5. Echtheit prüfen
+------------------
+    sha256sum -c SHA256SUMMEN.txt
+
+
+Unterschiede zur Mac-Fassung
+----------------------------
+  - Tastenkürzel mit Strg statt ⌘ (die Menüs zeigen sie an).
+  - Überschrift 1/2 und Normaler Absatz: Strg+Umschalt+1/2/0.
+  - Vollbild: F11.
+  - Diktat und Emoji-Auswahl gibt es in dieser Fassung nicht.

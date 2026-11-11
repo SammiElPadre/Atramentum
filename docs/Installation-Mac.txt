@@ -1,0 +1,70 @@
+ATRAMENTUM – INSTALLATION
+========================
+
+Atramentum ist kostenlos. Es gibt keine Bezahlversion, kein Konto und keine
+Anmeldung. Atramentum braucht kein Internet und sendet keine Daten.
+
+Voraussetzung: macOS 13 (Ventura) oder neuer, Apple-Chip oder Intel.
+
+
+1. Installieren
+---------------
+Ziehen Sie „Atramentum“ in dieser Disk-Image auf „Programme“.
+Danach können Sie dieses Fenster schließen und die Disk-Image auswerfen.
+
+
+2. Beim ersten Öffnen
+---------------------
+Atramentum ist nicht von Apple notarisiert. Deshalb zeigt macOS beim ersten
+Start eine Warnung. Das passiert nur einmal.
+
+  a) Doppelklicken Sie in „Programme“ auf Atramentum.
+     macOS meldet, dass es Atramentum nicht prüfen kann. Klicken Sie auf „Fertig“
+     (nicht auf „In den Papierkorb legen“).
+  b) Öffnen Sie Systemeinstellungen > Datenschutz & Sicherheit.
+     Weiter unten steht ein Hinweis zu „Atramentum“.
+     Klicken Sie dort auf „Dennoch öffnen“.
+  c) Bestätigen Sie mit „Öffnen“ und Ihrem Passwort oder Touch ID.
+
+Ab dann startet Atramentum normal.
+
+Meldet macOS stattdessen, Atramentum sei „beschädigt“, wurde die Datei beim
+Herunterladen verändert. Laden Sie sie bitte erneut von der offiziellen
+Seite und vergleichen Sie die Prüfsumme (siehe 5.).
+
+
+3. Aktualisieren
+----------------
+Laden Sie die neue Version und ziehen Sie sie wieder auf „Programme“.
+Wählen Sie „Ersetzen“. Ihre Projekte bleiben dabei unberührt; sie liegen
+nicht im Programm, sondern im Ordner „Atramentum“ in Ihrem Benutzerordner.
+Bei einem neuen Dateiformat legt Atramentum vor dem Umstellen automatisch
+eine Sicherung des Projekts an.
+
+
+4. Entfernen
+------------
+  - Programm: „Atramentum“ aus „Programme“ in den Papierkorb legen.
+  - Einstellungen und automatische Sicherungen (optional), im Finder über
+    Gehe zu > Gehe zum Ordner …:
+      ~/Library/Application Support/io.github.sammielpadre.atramentum
+      ~/Library/WebKit/io.github.sammielpadre.atramentum
+      ~/Library/Caches/io.github.sammielpadre.atramentum
+  - Ihre Projekte liegen in ~/Atramentum (bzw. dort, wo Sie sie angelegt
+    haben). Sie werden beim Entfernen NICHT gelöscht. Löschen Sie diesen
+    Ordner nur, wenn Sie Ihre Texte wirklich nicht mehr brauchen.
+
+Achtung: Im Ordner „Application Support“ liegen die automatischen täglichen
+Sicherungen Ihrer Projekte. Behalten Sie ihn, wenn Sie unsicher sind.
+
+
+5. Echtheit prüfen
+------------------
+Zu jeder Version wird eine SHA-256-Prüfsumme veröffentlicht. Im Terminal:
+
+    shasum -a 256 ~/Downloads/Atramentum-*.dmg
+
+Der angezeigte Wert muss mit dem veröffentlichten übereinstimmen.
+
+
+Hilfe und Rückmeldungen: In Atramentum unter Hilfe.

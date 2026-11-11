@@ -1,0 +1,75 @@
+ATRAMENTUM FÜR WINDOWS – INSTALLATION (TESTFASSUNG)
+==================================================
+
+Atramentum ist kostenlos. Es gibt keine Bezahlversion, kein Konto und keine
+Anmeldung. Atramentum braucht kein Internet und sendet keine Daten.
+
+Voraussetzung: Windows 10 oder 11, 64 Bit.
+
+Dies ist eine Testfassung. Bitte legen Sie regelmäßig Sicherungen an
+(Datei > Sicherung erstellen …) und melden Sie Auffälligkeiten.
+
+
+1. Installieren
+---------------
+Starten Sie „Atramentum_<Version>_x64-setup.exe“ per Doppelklick.
+
+Atramentum ist (noch) nicht mit einem Microsoft-Zertifikat signiert. Deshalb
+warnt Windows beim ersten Start mit „Der Computer wurde durch Windows
+geschützt“:
+
+  a) Klicken Sie auf „Weitere Informationen“.
+  b) Klicken Sie auf „Trotzdem ausführen“.
+
+Die Installation braucht keine Administratorrechte. Fehlt auf älteren
+Systemen die Microsoft-Edge-WebView2-Laufzeit, lädt das Setup sie nach
+(dafür ist dann einmalig eine Internetverbindung nötig).
+
+
+2. Aktualisieren
+----------------
+Neue Version herunterladen und das Setup erneut ausführen. Ihre Projekte
+bleiben unberührt; sie liegen nicht im Programm, sondern im Ordner
+„Atramentum“ in Ihrem Benutzerordner (C:\Users\<Name>\Atramentum).
+Bei einem neuen Dateiformat legt Atramentum vor dem Umstellen automatisch
+eine Sicherung des Projekts an.
+
+
+3. Entfernen
+------------
+  - Programm: Einstellungen > Apps > Installierte Apps > Atramentum >
+    Deinstallieren.
+  - Einstellungen und automatische tägliche Sicherungen (optional):
+      %APPDATA%\io.github.sammielpadre.atramentum
+      %LOCALAPPDATA%\io.github.sammielpadre.atramentum
+  - Ihre Projekte im Ordner „Atramentum“ in Ihrem Benutzerordner werden
+    NICHT gelöscht. Löschen Sie ihn nur, wenn Sie Ihre Texte wirklich nicht
+    mehr brauchen.
+
+
+4. Rettungswerkzeug
+-------------------
+„atramentum-rettung.exe“ liest ein Projekt ohne die App und schreibt alle
+Texte als lesbare Dateien heraus, falls Atramentum einmal nicht startet:
+
+    atramentum-rettung.exe "C:\Users\<Name>\Atramentum\Mein Roman.atramentum" "C:\Rettung"
+
+Das Projekt wird dabei nicht verändert. Bitte Atramentum vorher schließen.
+
+
+5. Echtheit prüfen
+------------------
+In PowerShell:
+
+    Get-FileHash .\Atramentum_*_x64-setup.exe -Algorithm SHA256
+
+Der Wert muss mit dem in SHA256SUMMEN.txt übereinstimmen.
+
+
+Unterschiede zur Mac-Fassung
+----------------------------
+  - Tastenkürzel mit Strg statt ⌘ (die Menüs zeigen sie an).
+  - Überschrift 1/2 und Normaler Absatz: Strg+Umschalt+1/2/0
+    (Strg+Alt ist unter Windows AltGr und würde „²“ oder „}“ verschlucken).
+  - Vollbild: F11. Emoji: Windows-Taste + Punkt.
+  - Diktat gibt es in dieser Fassung noch nicht.

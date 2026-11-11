@@ -1,0 +1,41 @@
+name: Fehler melden
+description: Etwas funktioniert nicht wie erwartet.
+labels: ["Fehler"]
+body:
+  - type: markdown
+    attributes:
+      value: "Diese Meldung ist öffentlich sichtbar. Bitte keine Manuskripttexte oder persönlichen Daten einfügen."
+  - type: input
+    id: version
+    attributes:
+      label: Atramentum-Version
+      description: "Steht unter Hilfe › Über Atramentum bzw. im Dateinamen des Downloads."
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: System
+      options: ["Mac (Apple-Chip)", "Mac (Intel)", "Windows 11", "Windows 10", "Linux (bitte Distribution unten nennen)"]
+    validations:
+      required: true
+  - type: textarea
+    id: was
+    attributes:
+      label: Was ist passiert?
+      description: "Was haben Sie gemacht, was haben Sie erwartet, was ist stattdessen passiert?"
+    validations:
+      required: true
+  - type: textarea
+    id: schritte
+    attributes:
+      label: Wie lässt es sich wiederholen?
+      placeholder: "1. …\n2. …\n3. …"
+  - type: dropdown
+    id: daten
+    attributes:
+      label: Sind Texte verloren gegangen?
+      options: ["Nein", "Ja", "Weiß nicht"]
+    validations:
+      required: true

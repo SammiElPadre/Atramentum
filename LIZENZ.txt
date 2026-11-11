@@ -1,0 +1,49 @@
+ATRAMENTUM – NUTZUNGSBEDINGUNGEN (FREEWARE)
+==========================================
+
+Fassung für die Testversionen vom 11.11.2026. Eine rechtliche Prüfung steht
+noch aus; vor der ersten regulären Version können sich diese Bedingungen ändern.
+
+§ 1 Rechteinhaber
+Atramentum (die „Software“) ist urheberrechtlich geschützt.
+Rechteinhaber: Sammi ElPadre (Pseudonym des Entwicklers) („Rechteinhaber“).
+
+§ 2 Kostenlose Nutzung
+(1) Jede natürliche und juristische Person darf die Software unentgeltlich
+    nutzen, privat, beruflich und gewerblich, auf beliebig vielen eigenen
+    Geräten. Eine Registrierung ist nicht erforderlich.
+(2) Mit der Software erstellte Texte und Projekte gehören allein ihren
+    Urhebern. Der Rechteinhaber erwirbt daran keinerlei Rechte.
+(3) Freiwillige Spenden schalten keine Funktionen frei und begründen keinen
+    Anspruch auf Leistungen, Fehlerbehebung oder Weiterentwicklung.
+
+§ 3 Weitergabe
+(1) Die unveränderte Installationsdatei darf kostenlos weitergegeben werden.
+(2) Nicht erlaubt sind:
+    a) der Verkauf der Software oder ihre Weitergabe gegen Entgelt, auch als
+       Teil eines kostenpflichtigen Pakets oder Dienstes;
+    b) die Weitergabe veränderter Fassungen;
+    c) das Entfernen oder Verändern von Urheber- und Lizenzhinweisen.
+(3) Zurückübersetzen, Disassemblieren und Verändern der Software sind nur
+    erlaubt, soweit das Gesetz es zwingend gestattet (§§ 69d, 69e UrhG).
+
+§ 4 Komponenten Dritter
+Die Software enthält Komponenten Dritter unter deren eigenen Lizenzen
+(u. a. MIT, Apache-2.0, MPL-2.0, BSD; SQLite ist gemeinfrei). Diese
+Lizenzen gehen für die jeweilige Komponente vor. Die vollständige Liste
+steht in der Software unter Hilfe › Lizenzen Dritter.
+
+§ 5 Haftung
+(1) Die Software wird unentgeltlich überlassen. Der Rechteinhaber haftet
+    deshalb nur für Vorsatz und grobe Fahrlässigkeit (§§ 521, 524, 600 BGB
+    entsprechend) sowie für arglistig verschwiegene Mängel.
+(2) Unberührt bleibt die Haftung für Schäden aus der Verletzung des Lebens,
+    des Körpers oder der Gesundheit und nach dem Produkthaftungsgesetz.
+(3) Die Software wird mit größter Sorgfalt für die Datensicherheit
+    entwickelt. Dennoch wird empfohlen, regelmäßig Sicherungen an einem
+    getrennten Ort anzulegen (Ablage bzw. Datei › Sicherung erstellen).
+
+§ 6 Schlussbestimmungen
+Es gilt deutsches Recht unter Ausschluss des UN-Kaufrechts. Zwingende
+Verbraucherschutzvorschriften des Staates, in dem ein Verbraucher seinen
+gewöhnlichen Aufenthalt hat, bleiben unberührt.

@@ -1,0 +1,17 @@
+name: Wunsch einreichen
+description: Eine Idee, was Atramentum können sollte.
+labels: ["Wunsch"]
+body:
+  - type: markdown
+    attributes:
+      value: "Diese Meldung ist öffentlich sichtbar. Bitte keine Manuskripttexte oder persönlichen Daten einfügen."
+  - type: textarea
+    id: wunsch
+    attributes:
+      label: Was wünschen Sie sich?
+    validations:
+      required: true
+  - type: textarea
+    id: wozu
+    attributes:
+      label: Wobei würde es Ihnen beim Schreiben helfen?
