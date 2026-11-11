@@ -1,6 +1,6 @@
 # Atramentum – Einführung
 
-Atramentum ist ein kostenloses Schreibprogramm für Romane und andere lange Texte. Ihr Buch besteht aus Kapiteln und Szenen. Daneben führen Sie Figuren, Orte und Notizen. Atramentum speichert jede Änderung sofort, braucht kein Konto und kein Internet und sendet nichts nach außen.
+Atramentum ist ein kostenloses Schreibprogramm für Romane und andere lange Texte. Ihr Buch besteht aus Kapiteln und Szenen. Daneben führen Sie Figuren, Orte und Notizen. Atramentum speichert jede Änderung sofort, braucht kein Konto und kein Internet und sendet keine Texte nach außen. Nur wenn Sie es erlauben, fragt Atramentum einmal am Tag nach einer neuen Version (Hilfe › Nach Updates suchen …).
 
 > Tastenkürzel stehen hier in Mac-Schreibweise. Unter Windows und Linux gilt Strg statt ⌘ und Alt statt ⌥; die Menüs in Atramentum zeigen die jeweils passenden Kürzel an.
 
@@ -87,6 +87,12 @@ Atramentum sichert beim Schreiben regelmäßig **Fassungen** jeder Szene.
 - **Beagle-Mode** ⌥⌘B: nur noch das weiße Blatt, ohne Menüs, im Vollbild. Zurück mit Esc.
 - **Schrift und Blatt:** Schrift größer ⌘+, kleiner ⌘−, Standardgröße ⌘0. Die Blattfarbe wählen Sie unter **Darstellung**.
 
+## Erscheinungsbild und Sprache
+
+- **Hell, Dunkel oder Wie System:** unter **Darstellung › Erscheinungsbild**. „Wie System“ folgt der Einstellung Ihres Rechners, auch wenn sie sich abends ändert. Im dunklen Modus bleiben der Beagle-Mode und die PDF-Ausgabe weiß. Wählen Sie die Blattfarbe „Weiß“ oder „Sepia“, bleibt auch das Blatt hell.
+- **Sprache:** Atramentum spricht Deutsch, Englisch, Französisch, Spanisch, Portugiesisch und Italienisch. Es richtet sich nach der Sprache Ihres Systems; ändern lässt sie sich unter **Darstellung › Sprache …** (wirkt nach einem Neustart). Ihre Texte, Titel und Namen werden nie übersetzt. Diese Anleitungen gibt es bisher nur auf Deutsch.
+- Die Einstellungen gelten für diesen Rechner, nicht für das Projekt.
+
 Alle Tastaturkürzel stehen unter **Hilfe › Tastaturkürzel**. Atramentum lässt sich vollständig per Tastatur und mit VoiceOver bedienen. F6 wechselt zwischen den Bereichen des Fensters.
 
 ## Sichern und weitergeben
@@ -103,6 +109,21 @@ Legen Sie das Projekt selbst nicht in iCloud Drive, Dropbox oder einen ähnliche
 - **Exportieren** ⇧⌘E: PDF als Normseite oder Leseexemplar, Word, Markdown oder Text. Der Umfang ist wählbar: ganzes Manuskript, ein Kapitel oder eine Szene. Vor dem PDF sehen Sie eine Vorschau.
 
 Was dabei verloren geht, steht in [Bekannte Grenzen](GRENZEN.md).
+
+## Updates
+
+Unter **Hilfe › Nach Updates suchen …** (auf dem Mac im Menü **Atramentum**) prüft Atramentum, ob es eine neuere Version gibt. Ein Klick lädt sie, prüft sie und installiert sie. Danach startet Atramentum neu. Vorher speichert es alles; Ihre Projekte bleiben unberührt.
+
+Beim ersten Start fragt Atramentum einmal, ob es selbst nach Updates suchen soll. Wenn Sie zustimmen, fragt es höchstens einmal am Tag bei GitHub nach der neuesten Versionsnummer. Texte oder persönliche Daten werden dabei nicht gesendet.
+
+## Windows und Linux
+
+Alles in dieser Anleitung gilt auch dort, mit diesen Unterschieden:
+
+- Kürzel mit **Strg** statt ⌘ und **Alt** statt ⌥. Die Menüs zeigen die jeweils passenden Kürzel an.
+- Überschrift 1, Überschrift 2 und Normaler Absatz: **Strg+Umschalt+1/2/0** (Strg+Alt ist unter Windows AltGr).
+- Vollbild mit **F11**. Das Menü **Ablage** heißt **Datei**, **Darstellung** heißt **Ansicht**.
+- Diktat gibt es dort noch nicht; Emojis unter Windows mit Windows-Taste + Punkt.
 
 ## Wenn etwas schiefgeht
 

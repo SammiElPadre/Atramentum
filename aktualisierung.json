@@ -1,0 +1,17 @@
+{
+  "version": "0.1.1",
+  "datum": "2026-11-11",
+  "hinweise": "Dunkler Modus, Oberfläche in sechs Sprachen, Updates per Klick, Windows-Fassung.",
+  "dateien": {
+    "mac": {
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.1/Atramentum-0.1.1.dmg",
+      "sha256": "c76ee65a867a65995f56a853f410b6c34d5c00fe7b3a1addcedbad6e1b58e44d",
+      "groesse": 15432869
+    },
+    "windows": {
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.1/Atramentum_0.1.1_x64-setup.exe",
+      "sha256": "12a79ea0c5d14f78fb61f895f4c162c21679d4228577821627dd07a00f81ac91",
+      "groesse": 3798478
+    }
+  }
+}

@@ -2,7 +2,9 @@ ATRAMENTUM FÜR WINDOWS – INSTALLATION (TESTFASSUNG)
 ==================================================
 
 Atramentum ist kostenlos. Es gibt keine Bezahlversion, kein Konto und keine
-Anmeldung. Atramentum braucht kein Internet und sendet keine Daten.
+Anmeldung. Atramentum braucht kein Internet und sendet keine Texte oder
+persönlichen Daten. Nur wenn Sie es erlauben, fragt es höchstens einmal am
+Tag bei GitHub nach einer neuen Version.
 
 Voraussetzung: Windows 10 oder 11, 64 Bit.
 
@@ -28,7 +30,9 @@ Systemen die Microsoft-Edge-WebView2-Laufzeit, lädt das Setup sie nach
 
 2. Aktualisieren
 ----------------
-Neue Version herunterladen und das Setup erneut ausführen. Ihre Projekte
+Ab Version 0.1.1 bietet Atramentum Updates selbst an (Hilfe › Nach Updates
+suchen …): ein Klick lädt, prüft und installiert die neue Version. Von Hand:
+neue Version herunterladen und das Setup erneut ausführen. Ihre Projekte
 bleiben unberührt; sie liegen nicht im Programm, sondern im Ordner
 „Atramentum“ in Ihrem Benutzerordner (C:\Users\<Name>\Atramentum).
 Bei einem neuen Dateiformat legt Atramentum vor dem Umstellen automatisch

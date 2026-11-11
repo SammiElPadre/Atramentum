@@ -22,15 +22,17 @@ Fehlt eine ganze Szene oder ein Kapitel, prüfen Sie **Ablage › Papierkorb anz
 
 Atramentum legt beim Arbeiten etwa einmal täglich eine Sicherung jedes geöffneten Projekts an. Aufbewahrt werden die jüngste Sicherung je Tag der letzten 7 Tage und die jüngste je Woche der letzten 4 Wochen. Sie liegen hier:
 
-```
-~/Library/Application Support/io.github.sammielpadre.atramentum/Sicherungen/
-```
+| System | Ordner |
+| --- | --- |
+| Mac | `~/Library/Application Support/io.github.sammielpadre.atramentum/Sicherungen/` |
+| Windows | `%APPDATA%\io.github.sammielpadre.atramentum\Sicherungen\` |
+| Linux | `~/.local/share/io.github.sammielpadre.atramentum/Sicherungen/` |
 
-So kommen Sie hin: im Finder **Gehe zu › Gehe zum Ordner …** wählen und den Pfad einfügen. Jeder Unterordner gehört zu einem Projekt, und der Dateiname ist der Zeitpunkt der Sicherung.
+So kommen Sie hin: auf dem Mac im Finder **Gehe zu › Gehe zum Ordner …** wählen und den Pfad einfügen, unter Windows den Pfad in die Adresszeile des Explorers einfügen, unter Linux im Dateimanager (versteckte Ordner einblenden). Jeder Unterordner gehört zu einem Projekt, und der Dateiname ist der Zeitpunkt der Sicherung.
 
 So stellen Sie eine Sicherung wieder her:
 
-1. Wählen Sie in Atramentum **Ablage › Aus Sicherung wiederherstellen …**.
+1. Wählen Sie in Atramentum **Ablage › Aus Sicherung wiederherstellen …** (Windows/Linux: **Datei**).
 2. Wählen Sie die passende `.atramentumsicherung`-Datei.
 
 Dabei entsteht ein neues Projekt. Das beschädigte bleibt unverändert.
@@ -41,7 +43,7 @@ Haben Sie mit **Ablage › Sicherung erstellen …** selbst Sicherungen angelegt
 
 ## 5. Rettungswerkzeug
 
-Öffnet Atramentum das Projekt gar nicht mehr, holt das Rettungswerkzeug die Texte heraus. Es liegt in Atramentum selbst und arbeitet nur lesend: Am Projekt ändert es nichts, auch keine Umstellung des Dateiformats. Es liest auch ältere und neuere Projektversionen sowie beschädigte Dateien, so weit sie lesbar sind.
+Öffnet Atramentum das Projekt gar nicht mehr, holt das Rettungswerkzeug die Texte heraus. Auf dem Mac liegt es in Atramentum selbst, für Windows und Linux gibt es es als eigene Datei auf der Download-Seite (`atramentum-rettung-windows-x64.exe`, `atramentum-rettung-linux-x64`). Es arbeitet nur lesend: Am Projekt ändert es nichts, auch keine Umstellung des Dateiformats. Es liest auch ältere und neuere Projektversionen sowie beschädigte Dateien, so weit sie lesbar sind.
 
 1. Öffnen Sie das Programm **Terminal** (unter Programme › Dienstprogramme).
 2. Tippen Sie den folgenden Befehl mit einem Leerzeichen am Ende, aber drücken Sie noch nicht ↩:
@@ -50,6 +52,8 @@ Haben Sie mit **Ablage › Sicherung erstellen …** selbst Sicherungen angelegt
    ```
 3. Ziehen Sie den Projektordner (`Name.atramentum`) aus dem Finder in das Terminalfenster. Der Pfad wird eingefügt.
 4. Drücken Sie ↩.
+
+Unter Windows öffnen Sie die Eingabeaufforderung, ziehen erst `atramentum-rettung-windows-x64.exe` und dann den Projektordner hinein und drücken Eingabe. Unter Linux im Terminal: `chmod +x atramentum-rettung-linux-x64`, dann `./atramentum-rettung-linux-x64 ~/Atramentum/"Name.atramentum"`. Schließen Sie Atramentum vorher, unter Windows ist ein geöffnetes Projekt gesperrt.
 
 Neben dem Projekt entsteht der Ordner **„Name gerettet“** mit diesem Inhalt:
 

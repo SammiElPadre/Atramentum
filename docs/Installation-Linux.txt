@@ -2,7 +2,9 @@ ATRAMENTUM FÜR LINUX – INSTALLATION (TESTFASSUNG)
 ================================================
 
 Atramentum ist kostenlos. Es gibt keine Bezahlversion, kein Konto und keine
-Anmeldung. Atramentum braucht kein Internet und sendet keine Daten.
+Anmeldung. Atramentum braucht kein Internet und sendet keine Texte oder
+persönlichen Daten. Nur wenn Sie es erlauben, fragt es höchstens einmal am
+Tag bei GitHub nach einer neuen Version.
 
 Voraussetzung: 64-Bit-Linux (x86_64) mit grafischer Oberfläche, etwa
 Ubuntu 22.04 oder neuer, Debian 12, Fedora 39 oder Linux Mint 21.
@@ -34,7 +36,9 @@ Vorlage „Normseite“ (Courier) zur Verfügung.
 
 2. Aktualisieren
 ----------------
-Neue Version wie oben installieren bzw. das neue AppImage verwenden.
+Ab Version 0.1.1 bietet Atramentum Updates selbst an (Hilfe › Nach Updates
+suchen …). Das AppImage wird dabei direkt ersetzt; beim deb-Paket fragt das
+System nach Ihrem Passwort. Von Hand: neue Version wie oben installieren.
 Ihre Projekte liegen im Ordner ~/Atramentum und bleiben unberührt.
 Bei einem neuen Dateiformat legt Atramentum vor dem Umstellen automatisch
 eine Sicherung des Projekts an.

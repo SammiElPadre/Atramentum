@@ -1,13 +1,14 @@
-# Bekannte Grenzen der Mac-Beta
+# Bekannte Grenzen
 
-Stand: Version 0.1 (Beta), November 2026. Hier steht, was Atramentum bewusst noch nicht kann oder nur vereinfacht macht. Fehler im Sinne von „funktioniert anders als beschrieben“ gehören nicht hierher, sondern in eine Fehlermeldung.
+Stand: Version 0.1.1 (Testfassung), November 2026. Hier steht, was Atramentum bewusst noch nicht kann oder nur vereinfacht macht. Fehler im Sinne von „funktioniert anders als beschrieben“ gehören nicht hierher, sondern in eine Fehlermeldung.
 
 ## Plattform und Ausstattung
 
-- Nur macOS 13 oder neuer. Windows und Linux folgen, danach Tablet und Telefon.
-- Die Oberfläche gibt es nur auf Deutsch. Weitere Sprachen kommen später.
-- Es gibt nur den hellen Modus. Der dunkle Modus ist in Arbeit.
-- Atramentum ist nicht von Apple notarisiert. Beim ersten Start ist deshalb eine Freigabe nötig, siehe `Installation.txt`.
+- macOS 13 oder neuer, Windows 10 und 11 (64 Bit), Linux x86_64 (etwa Ubuntu 22.04 oder neuer). Tablet und Telefon folgen später.
+- Windows und Linux sind neu: Gebaut und automatisch geprüft wird auf GitHub-Rechnern, von Hand getestet ist bisher vor allem der Mac. Diktat gibt es nur auf dem Mac, die Emoji-Auswahl nicht unter Linux.
+- Oberfläche auf Deutsch, Englisch, Französisch, Spanisch, Portugiesisch und Italienisch. Die Übersetzungen sind neu; einzelne Hinweise für Bildschirmleser und einige Fehlermeldungen können noch deutsch erscheinen. Die Anleitungen gibt es nur auf Deutsch. Eine neue Sprache wirkt nach einem Neustart.
+- Atramentum ist weder von Apple notarisiert noch mit einem Microsoft-Zertifikat signiert. Beim ersten Start ist deshalb eine Freigabe nötig, siehe die Installationsanleitung des jeweiligen Systems.
+- Testfassung 1 (0.1.0) kann sich noch nicht selbst aktualisieren. Ab 0.1.1 geht das über **Hilfe › Nach Updates suchen …**.
 - Es ist immer nur ein Projekt in einem Fenster geöffnet.
 
 ## Gleichzeitiges Arbeiten und Cloud

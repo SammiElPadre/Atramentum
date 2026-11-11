@@ -2,27 +2,37 @@
 
 Atramentum ist ein kostenloses Schreibprogramm für Romane und andere lange Texte. Ihr Buch besteht aus Kapiteln und Szenen. Dazu kommen Figuren, Orte, Notizen, eine Pinnwand, ein Zeitstrahl und ein Figurennetz.
 
+*Atramentum is a free writing app for novelists (Mac, Windows, Linux). The interface is available in English, German, French, Spanish, Portuguese and Italian; downloads are below.*
+
 - **Kostenlos**, ohne Bezahlversion, Abo oder Konto.
-- **Ihre Texte bleiben bei Ihnen:** Atramentum speichert lokal auf Ihrem Rechner, braucht kein Internet und sendet keine Daten.
+- **Ihre Texte bleiben bei Ihnen:** Atramentum speichert lokal auf Ihrem Rechner und braucht kein Internet. Es sendet keine Texte oder persönlichen Daten; nur wenn Sie es erlauben, fragt es einmal am Tag nach einer neuen Version.
 - **Sicher:** Gespeichert wird bei jeder Änderung. Dazu kommen Fassungen jeder Szene, ein Papierkorb, tägliche automatische Sicherungen und ein Rettungswerkzeug.
 - **Austausch:** Import aus Word, Markdown und Text, Export als Word, PDF (Normseite oder Leseexemplar), Markdown und Text.
+- **Hell oder dunkel, in sechs Sprachen:** Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch.
+- **Updates per Klick** direkt in der App.
 
 > **Testphase:** Die aktuellen Versionen sind Testfassungen. Bitte legen Sie regelmäßig Sicherungen an (Ablage bzw. Datei › Sicherung erstellen …) und melden Sie, was Ihnen auffällt.
 
 ## Herunterladen
 
-Alle Versionen finden Sie unter [Releases](../../releases).
+<!-- DOWNLOAD -->
+**Version 0.1.1** (2026-11-11)
 
-| System | Datei | Anleitung |
+| System | Download | Anleitung |
 |---|---|---|
-| **Mac** (macOS 13 oder neuer, Apple-Chip und Intel) | `Atramentum-<Version>.dmg` | [Installation Mac](docs/Installation-Mac.txt) |
-| **Windows** (10 und 11, 64 Bit) | `Atramentum_<Version>_x64-setup.exe` | [Installation Windows](docs/Installation-Windows.txt) |
-| **Linux** (x86_64) | `.deb` (Ubuntu, Debian, Mint) oder `.AppImage` (alle) | [Installation Linux](docs/Installation-Linux.txt) |
+| **Mac** (macOS 13+, Apple-Chip und Intel) | [Atramentum-0.1.1.dmg](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.1/Atramentum-0.1.1.dmg) (15 MB) | [Installation Mac](docs/Installation-Mac.txt) |
+| **Windows** 10 und 11 (64 Bit) | [Atramentum_0.1.1_x64-setup.exe](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.1/Atramentum_0.1.1_x64-setup.exe) (4 MB) | [Installation Windows](docs/Installation-Windows.txt) |
 
-Atramentum ist nicht bei Apple notarisiert und nicht mit einem Microsoft-Zertifikat signiert. Deshalb fragen macOS und Windows beim ersten Start einmal nach. Die Anleitungen zeigen, wie Sie trotzdem öffnen. Zu jeder Datei gibt es eine SHA-256-Prüfsumme.
+Windows und Linux folgen in Kürze.
+
+Prüfsummen und Rettungswerkzeuge: [Release-Seite](https://github.com/SammiElPadre/Atramentum/releases/tag/v0.1.1).
+<!-- /DOWNLOAD -->
+
+Atramentum ist nicht bei Apple notarisiert und nicht mit einem Microsoft-Zertifikat signiert. Deshalb fragen macOS und Windows beim ersten Start einmal nach; die Anleitungen zeigen, wie Sie trotzdem öffnen. Danach hält sich Atramentum über **Hilfe › Nach Updates suchen …** selbst aktuell.
 
 ## Anleitungen
 
+- Installation: [Mac](docs/Installation-Mac.txt) · [Windows](docs/Installation-Windows.txt) · [Linux](docs/Installation-Linux.txt)
 - [Einführung](docs/EINFUEHRUNG.md)
 - [Rettungsanleitung](docs/RETTUNG.md)
 - [Bekannte Grenzen](docs/GRENZEN.md)

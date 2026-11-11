@@ -2,7 +2,9 @@ ATRAMENTUM – INSTALLATION
 ========================
 
 Atramentum ist kostenlos. Es gibt keine Bezahlversion, kein Konto und keine
-Anmeldung. Atramentum braucht kein Internet und sendet keine Daten.
+Anmeldung. Atramentum braucht kein Internet und sendet keine Texte oder
+persönlichen Daten. Nur wenn Sie es erlauben, fragt es höchstens einmal am
+Tag bei GitHub nach einer neuen Version.
 
 Voraussetzung: macOS 13 (Ventura) oder neuer, Apple-Chip oder Intel.
 
@@ -35,9 +37,11 @@ Seite und vergleichen Sie die Prüfsumme (siehe 5.).
 
 3. Aktualisieren
 ----------------
-Laden Sie die neue Version und ziehen Sie sie wieder auf „Programme“.
-Wählen Sie „Ersetzen“. Ihre Projekte bleiben dabei unberührt; sie liegen
-nicht im Programm, sondern im Ordner „Atramentum“ in Ihrem Benutzerordner.
+Ab Version 0.1.1 bietet Atramentum Updates selbst an (Hilfe bzw. Atramentum ›
+Nach Updates suchen …): ein Klick lädt, prüft und installiert die neue Version.
+Von Hand: neue Version laden, wieder auf „Programme“ ziehen, „Ersetzen“ wählen.
+Ihre Projekte bleiben dabei unberührt; sie liegen nicht im Programm, sondern
+im Ordner „Atramentum“ in Ihrem Benutzerordner.
 Bei einem neuen Dateiformat legt Atramentum vor dem Umstellen automatisch
 eine Sicherung des Projekts an.
 
