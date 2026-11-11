@@ -11,6 +11,27 @@ Atramentum ist ein kostenloses Schreibprogramm für Romane und andere lange Text
 - **Hell oder dunkel, in sechs Sprachen:** Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch.
 - **Updates per Klick** direkt in der App.
 
+## So sieht Atramentum aus
+
+![Manuskript mit Kapiteln, Szenen und den Angaben am Rand](docs/bilder/manuskript.png)
+
+<table>
+<tr>
+<td width="50%"><img src="docs/bilder/manuskript-dunkel.png" alt="Dunkler Modus"><br><sub>Dunkler Modus für den Abend</sub></td>
+<td width="50%"><img src="docs/bilder/manuskript-englisch.png" alt="Englische Oberfläche"><br><sub>Oberfläche auf Englisch (auch Französisch, Spanisch, Portugiesisch, Italienisch)</sub></td>
+</tr>
+<tr>
+<td><img src="docs/bilder/pinnwand.png" alt="Pinnwand"><br><sub>Pinnwand: Zettel, Gruppen und Verbindungen</sub></td>
+<td><img src="docs/bilder/zeitstrahl.png" alt="Zeitstrahl"><br><sub>Zeitstrahl: erzählte Zeit, Rückblenden erkannt</sub></td>
+</tr>
+<tr>
+<td><img src="docs/bilder/figurennetz.png" alt="Figurennetz"><br><sub>Figurennetz: Beziehungen und Zustände zu jedem Zeitpunkt der Geschichte</sub></td>
+<td><img src="docs/bilder/figurenbogen.png" alt="Figurenbogen"><br><sub>Figurenbogen wie ein Charakterbogen</sub></td>
+</tr>
+</table>
+
+<sub>Beispielprojekt „Die Kartografin“, Mac-Fassung. Unter Windows und Linux sieht Atramentum gleich aus, mit der Fensterleiste des jeweiligen Systems.</sub>
+
 > **Testphase:** Die aktuellen Versionen sind Testfassungen. Bitte legen Sie regelmäßig Sicherungen an (Ablage bzw. Datei › Sicherung erstellen …) und melden Sie, was Ihnen auffällt.
 
 ## Herunterladen
