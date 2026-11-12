@@ -37,16 +37,17 @@ Atramentum ist ein kostenloses Schreibprogramm für Romane und andere lange Text
 ## Herunterladen
 
 <!-- DOWNLOAD -->
-**Version 0.1.2** (2026-11-12)
+**Version 0.1.3** (2026-11-12)
 
 | System | Download | Anleitung |
 |---|---|---|
-| **Mac** (macOS 13+, Apple-Chip und Intel) | [Atramentum-0.1.2.dmg](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.2/Atramentum-0.1.2.dmg) (16 MB) | [Installation Mac](docs/Installation-Mac.txt) |
-| **Windows** 10 und 11 (64 Bit) | [Atramentum_0.1.2_x64-setup.exe](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.2/Atramentum_0.1.2_x64-setup.exe) (4 MB) | [Installation Windows](docs/Installation-Windows.txt) |
-| **Linux** Ubuntu, Debian, Mint | [Atramentum_0.1.2_amd64.deb](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.2/Atramentum_0.1.2_amd64.deb) (6 MB) | [Installation Linux](docs/Installation-Linux.txt) |
-| **Linux** alle anderen | [Atramentum_0.1.2_amd64.AppImage](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.2/Atramentum_0.1.2_amd64.AppImage) (84 MB) | [Installation Linux](docs/Installation-Linux.txt) |
+| **Mac** (macOS 13+, Apple-Chip und Intel) | [Atramentum-0.1.3.dmg](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.3/Atramentum-0.1.3.dmg) (16 MB) | [Installation Mac](docs/Installation-Mac.txt) |
+| **Windows** 10 und 11 (64 Bit) | [Atramentum_0.1.3_x64-setup.exe](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.3/Atramentum_0.1.3_x64-setup.exe) (4 MB) | [Installation Windows](docs/Installation-Windows.txt) |
+| **Linux** Ubuntu, Debian, Mint | [Atramentum_0.1.3_amd64.deb](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.3/Atramentum_0.1.3_amd64.deb) (6 MB) | [Installation Linux](docs/Installation-Linux.txt) |
+| **Linux** alle anderen | [Atramentum_0.1.3_amd64.AppImage](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.3/Atramentum_0.1.3_amd64.AppImage) (84 MB) | [Installation Linux](docs/Installation-Linux.txt) |
+| **Android** 7 und neuer (Telefon und Tablet) | [Atramentum_0.1.3_android.apk](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.3/Atramentum_0.1.3_android.apk) (47 MB) | [Installation Android](docs/Installation-Android.txt) |
 
-Prüfsummen und Rettungswerkzeuge: [Release-Seite](https://github.com/SammiElPadre/Atramentum/releases/tag/v0.1.2).
+Prüfsummen und Rettungswerkzeuge: [Release-Seite](https://github.com/SammiElPadre/Atramentum/releases/tag/v0.1.3).
 <!-- /DOWNLOAD -->
 
 Atramentum ist nicht bei Apple notarisiert und nicht mit einem Microsoft-Zertifikat signiert. Deshalb fragen macOS und Windows beim ersten Start einmal nach; die Anleitungen zeigen, wie Sie trotzdem öffnen. Danach hält sich Atramentum über **Hilfe › Nach Updates suchen …** selbst aktuell.

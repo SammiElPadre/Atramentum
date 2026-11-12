@@ -1,0 +1,78 @@
+ATRAMENTUM FÜR ANDROID – INSTALLATION (TESTFASSUNG)
+==================================================
+
+Atramentum ist kostenlos. Es gibt keine Bezahlversion, kein Konto und keine
+Anmeldung. Atramentum braucht kein Internet und sendet keine Texte oder
+persönlichen Daten. Nur wenn Sie es erlauben, fragt es höchstens einmal am
+Tag bei GitHub nach einer neuen Version.
+
+Voraussetzung: Android 7 oder neuer, Telefon oder Tablet.
+
+Atramentum gibt es für Android nicht im Play Store, sondern direkt hier
+auf GitHub. Android fragt deshalb einmal nach Ihrer Erlaubnis.
+
+Dies ist eine Testfassung. Bitte legen Sie regelmäßig Sicherungen an
+(Ablage › Sicherung erstellen …) und melden Sie Auffälligkeiten.
+
+
+1. Installieren
+---------------
+1. Öffnen Sie diese Seite auf dem Android-Gerät und tippen Sie auf die
+   Datei „Atramentum_<Version>_android.apk“.
+2. Nach dem Herunterladen auf „Öffnen“ tippen (oder die Datei in der
+   App „Dateien“ unter „Downloads“ antippen).
+3. Android meldet, dass der Browser keine Apps installieren darf:
+   „Einstellungen“ antippen, „Dieser Quelle vertrauen“ (bzw. „Aus dieser
+   Quelle zulassen“) einschalten, zurück, dann „Installieren“.
+4. Google Play Protect kann warnen, die App sei unbekannt. Das liegt
+   daran, dass sie nicht aus dem Play Store kommt. „Details“ und
+   „Trotzdem installieren“ wählen.
+
+Atramentum erscheint danach bei Ihren Apps.
+
+
+2. Updates
+----------
+Atramentum fragt beim ersten Start, ob es selbst nach neuen Versionen
+suchen soll. Sie können auch jederzeit „Hilfe › Nach Updates suchen …“
+wählen. Beim ersten Update bittet Android einmal um die Erlaubnis
+„Apps aus dieser Quelle installieren“ für Atramentum; danach genügt ein
+Tippen auf „Installieren“. Ihre Projekte bleiben dabei erhalten.
+
+
+3. Wo Ihre Projekte liegen
+--------------------------
+Projekte, Exporte und Sicherungen liegen im geschützten Bereich der App.
+Exporte (Word, PDF, Markdown) und Sicherungen bietet Atramentum nach dem
+Erstellen über „Teilen“ an: In Dateien speichern, per Mail senden,
+in Google Drive ablegen …
+
+WICHTIG: Wenn Sie Atramentum deinstallieren, löscht Android auch alle
+Projekte der App. Legen Sie vorher eine Sicherung an und speichern Sie
+sie außerhalb der App (Ablage › Sicherung erstellen …, dann „Teilen“).
+
+
+4. Abgleich mit anderen Geräten
+-------------------------------
+Google Drive und OneDrive legen auf Android keinen abgeglichenen Ordner
+an. Für den Abgleich mit Mac, Windows oder einem anderen Gerät brauchen
+Sie eine Sync-App, die einen Ordner auf dem Gerät mit Ihrer Cloud
+abgleicht (zum Beispiel FolderSync oder Autosync für Google Drive,
+OneDrive und Dropbox, oder Syncthing zwischen eigenen Geräten). Diesen
+Ordner wählen Sie in Atramentum unter „Ablage › Abgleich einrichten …“.
+Diese Apps stammen von anderen Anbietern; wir haben sie nicht geprüft.
+Mehr dazu in der Einführung (EINFUEHRUNG.md, „Mehrere Geräte“).
+
+
+5. Bedienung auf dem Telefon
+----------------------------
+- Kapitel und Szenen: Knopf ganz links in der Leiste unter dem Menü.
+- „Am Rand“ (Szenenangaben, Notiz, Figuren): Knopf ganz rechts.
+- Pinnwand und Figurennetz: mit zwei Fingern zoomen und verschieben.
+- Die Zurück-Geste schließt erst offene Listen, Menüs und Dialoge.
+
+
+6. Entfernen
+------------
+Einstellungen › Apps › Atramentum › Deinstallieren. Vorher Sicherung
+anlegen (siehe Abschnitt 3).

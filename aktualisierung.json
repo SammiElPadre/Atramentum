@@ -1,27 +1,32 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "datum": "2026-11-12",
-  "hinweise": "Neu: Abgleich mehrerer Geräte über einen Sync-Ordner (iCloud Drive, Dropbox, OneDrive, Nextcloud …), eigene Angaben in Figuren- und Ortsbögen, Suche beim Tippen in Auswahllisten, im Text erwähnte Figuren und Orte mit „+“ verknüpfen, Fassung mit optionalem Kommentar, Beagle-Mode im Dunkelmodus dunkel, Projektname nur noch einmal. Erstmals auch für Linux (deb und AppImage).",
+  "hinweise": "Neu: erstmals für Android (Telefon und Tablet, Download hier, Updates in der App). Abgleich: neue Geräte holen ein Projekt über einen Gesamtstand statt über alle Einzelpakete; ein Gerät mit älterer Version meldet „Update nötig“ und verliert dabei nichts. Linux: große Updates laden zuverlässig. Anleitung zum Sync-Ordner für jedes Gerät in der Einführung.",
   "dateien": {
     "mac": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.2/Atramentum-0.1.2.dmg",
-      "sha256": "4d3ab7e9783f96a9ac2ab6f88c279181d70e3e182c36ad88aac5ae0f3403baef",
-      "groesse": 15649838
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.3/Atramentum-0.1.3.dmg",
+      "sha256": "461c63eb1a6d3e4daaa63ecdeb2bc46c714cc630eb9a7e142714d63543a2357d",
+      "groesse": 15749449
     },
     "windows": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.2/Atramentum_0.1.2_x64-setup.exe",
-      "sha256": "dbea62328c15e2f23ac972cf979e014ca9473edc3eae6e17ed38d7e8847acb9b",
-      "groesse": 3860614
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.3/Atramentum_0.1.3_x64-setup.exe",
+      "sha256": "af9e8b12047efc17d9b4fca748f6ebad91adb03c60bda75021845d580f834e24",
+      "groesse": 3899053
     },
     "linux-deb": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.2/Atramentum_0.1.2_amd64.deb",
-      "sha256": "6e0c90b676404f7adc5a449a45f3038ab7278add75405cc1480380b8ce8fd758",
-      "groesse": 5500372
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.3/Atramentum_0.1.3_amd64.deb",
+      "sha256": "35c795cf56e45728b0cf18b4f7858bab5cfd33e0d92ea795905e0420afbd6acb",
+      "groesse": 5543786
     },
     "linux-appimage": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.2/Atramentum_0.1.2_amd64.AppImage",
-      "sha256": "e451ff932ebafc5d85425947da574c76000623dee98bda864a5f04419cdd3354",
-      "groesse": 83720696
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.3/Atramentum_0.1.3_amd64.AppImage",
+      "sha256": "03a6c44b638e75ba2887ea46b3d8a315e582d706277b606259fb5e04dc3ef4ce",
+      "groesse": 83753464
+    },
+    "android": {
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.3/Atramentum_0.1.3_android.apk",
+      "sha256": "22f9d3471c05fe786d72ec74b0c1b143a6e84ce9148ca06fa02e6f43b229edcd",
+      "groesse": 47142746
     }
   }
 }

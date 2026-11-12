@@ -112,12 +112,26 @@ Was dabei verloren geht, steht in [Bekannte Grenzen](GRENZEN.md).
 
 ## Mehrere Geräte (Abgleich)
 
-Atramentum gleicht ein Projekt über einen **Sync-Ordner** ab: einen Ordner, den Dropbox, OneDrive, Google Drive, iCloud Drive oder Nextcloud ohnehin zwischen Ihren Geräten abgleicht. Ein Konto bei Atramentum gibt es nicht.
+Atramentum gleicht ein Projekt über einen **Sync-Ordner** ab: einen Ordner, den Ihr Cloud-Programm (iCloud Drive, Google Drive, OneDrive, Dropbox, Nextcloud …) ohnehin zwischen Ihren Geräten abgleicht. Atramentum legt dort nur Änderungspakete ab; das Cloud-Programm trägt sie zu den anderen Geräten. Ein Konto bei Atramentum gibt es nicht, und Atramentum meldet sich bei keinem Cloud-Anbieter an.
 
-1. Auf dem ersten Gerät: **Ablage › Abgleich einrichten …** und den Ordner wählen, zum Beispiel einen neuen Ordner „Atramentum-Abgleich“ in Ihrer Dropbox.
+1. Auf dem ersten Gerät: **Ablage › Abgleich einrichten …** und den Ordner wählen, zum Beispiel einen neuen Ordner „Atramentum-Abgleich“ in Ihrem iCloud Drive oder Ihrer Dropbox.
 2. Auf dem zweiten Gerät: **Ablage › Projekt aus Sync-Ordner holen …** (oder auf dem Startbildschirm „Aus Sync-Ordner holen“) und denselben Ordner wählen.
 
-Danach gleicht Atramentum beim Öffnen und jede Minute ab; unten in der Statusleiste steht, wann zuletzt. **Jetzt abgleichen** stößt es sofort an. Das Projekt selbst bleibt dabei lokal auf jedem Gerät; im Sync-Ordner liegen nur Änderungspakete.
+Danach gleicht Atramentum beim Öffnen und jede Minute ab; unten in der Statusleiste steht, wann zuletzt. **Jetzt abgleichen** stößt es sofort an.
+
+**Wichtig:** Das Projekt selbst bleibt lokal auf jedem Gerät und gehört nicht in den Cloud-Ordner – eine laufend geänderte Datenbank kann die Synchronisation beschädigen. In den Sync-Ordner kommen nur die Pakete. Sicherungsdateien (.atramentumsicherung) dürfen dagegen in die Cloud.
+
+### Welcher Ordner auf welchem Gerät
+
+| Gerät | So geht es |
+|---|---|
+| **Mac** | Einen Ordner in **iCloud Drive** (Finder › iCloud Drive) wählen, oder im Ordner von **Google Drive für Desktop**, **OneDrive** bzw. **Dropbox**. |
+| **Windows** | Einen Ordner in **OneDrive** (ist eingebaut), **iCloud Drive** (Programm „iCloud für Windows“), **Google Drive für Desktop** oder **Dropbox** wählen. |
+| **iPhone und iPad** | Beim Wählen öffnet sich die Dateien-App: einen Ordner in **iCloud Drive** wählen. Google Drive, OneDrive und Dropbox erscheinen dort ebenfalls, wenn ihre App installiert ist. Atramentum merkt sich den Ordner, auch nach einem Neustart. |
+| **Android** | Google Drive und OneDrive legen auf Android **keinen** abgeglichenen Ordner an, ihre Dateien liegen nur in der jeweiligen App. Nutzen Sie eine Sync-App, die einen Ordner auf dem Gerät mit Ihrer Cloud abgleicht (zum Beispiel FolderSync oder Autosync für Google Drive/OneDrive/Dropbox, oder Syncthing zwischen eigenen Geräten), und wählen Sie diesen Ordner in Atramentum. Diese Apps stammen von anderen Anbietern; wir haben sie nicht geprüft. |
+| **Linux** | Einen Ordner von **Dropbox** oder **Nextcloud** wählen. Für Google Drive und OneDrive gibt es unter Linux kein offizielles Programm; Werkzeuge anderer Anbieter wie rclone oder Insync können einen Ordner bereitstellen. |
+
+Alle Geräte müssen denselben Ordner beim selben Cloud-Anbieter nutzen. Ein Mac mit iCloud Drive und ein Windows-PC mit OneDrive gleichen also nicht miteinander ab – es sei denn, der PC nutzt ebenfalls iCloud Drive (über „iCloud für Windows“).
 
 Wurde dieselbe Szene auf zwei Geräten gleichzeitig geändert, gilt der neuere Stand auf allen Geräten. Der andere geht nicht verloren: Er liegt bei der Szene unter **Fassungen** („Abgleich: …“).
 

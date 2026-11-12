@@ -1,10 +1,11 @@
 # Bekannte Grenzen
 
-Stand: Version 0.1.2 (Testfassung), November 2026. Hier steht, was Atramentum bewusst noch nicht kann oder nur vereinfacht macht. Fehler im Sinne von „funktioniert anders als beschrieben“ gehören nicht hierher, sondern in eine Fehlermeldung.
+Stand: Version 0.1.3 (Testfassung), November 2026. Hier steht, was Atramentum bewusst noch nicht kann oder nur vereinfacht macht. Fehler im Sinne von „funktioniert anders als beschrieben“ gehören nicht hierher, sondern in eine Fehlermeldung.
 
 ## Plattform und Ausstattung
 
-- macOS 13 oder neuer, Windows 10 und 11 (64 Bit), Linux x86_64 (etwa Ubuntu 22.04 oder neuer). Tablet und Telefon folgen später.
+- macOS 13 oder neuer, Windows 10 und 11 (64 Bit), Linux x86_64 (etwa Ubuntu 22.04 oder neuer), Android 7 oder neuer (Telefon und Tablet, Download über GitHub, nicht im Play Store). iPhone und iPad folgen über den App Store.
+- Android ist neu und bisher nur auf dem Emulator geprüft. Dort gibt es keinen eigenen Diktatknopf (das Diktat der Bildschirmtastatur funktioniert), und PDF-Exporte gehen nur mit der Vorlage „Normseite“, weil Android die Schrift Times nicht mitbringt. Projekte liegen im geschützten Bereich der App und werden beim Deinstallieren gelöscht; vorher eine Sicherung anlegen und teilen.
 - Windows und Linux sind neu: Gebaut und automatisch geprüft wird auf GitHub-Rechnern, von Hand getestet ist bisher vor allem der Mac. Diktat gibt es nur auf dem Mac, die Emoji-Auswahl nicht unter Linux.
 - Oberfläche auf Deutsch, Englisch, Französisch, Spanisch, Portugiesisch und Italienisch. Die Übersetzungen sind neu; einzelne Hinweise für Bildschirmleser und einige Fehlermeldungen können noch deutsch erscheinen. Die Anleitungen gibt es nur auf Deutsch. Eine neue Sprache wirkt nach einem Neustart.
 - Atramentum ist weder von Apple notarisiert noch mit einem Microsoft-Zertifikat signiert. Beim ersten Start ist deshalb eine Freigabe nötig, siehe die Installationsanleitung des jeweiligen Systems.
@@ -13,7 +14,7 @@ Stand: Version 0.1.2 (Testfassung), November 2026. Hier steht, was Atramentum be
 
 ## Gleichzeitiges Arbeiten und Cloud
 
-- Abgleich zwischen Geräten gibt es über einen Sync-Ordner (siehe Einführung). Noch nicht: direkte Anbindung an Cloud-Dienste ohne deren Programm, WebDAV, Verschlüsselung der Pakete (sie liegen lesbar in Ihrem eigenen Cloud-Speicher), automatisches Aufräumen alter Pakete. Gleichzeitiges Umordnen derselben Kapitel auf zwei Geräten kann eine ungewohnte Reihenfolge ergeben.
+- Abgleich zwischen Geräten gibt es über einen Sync-Ordner (siehe Einführung). Eine direkte Anbindung an Cloud-Dienste ist nicht vorgesehen; unter Android braucht der Abgleich deshalb eine Sync-App eines anderen Anbieters. Noch nicht: Verschlüsselung der Pakete (sie liegen lesbar in Ihrem eigenen Cloud-Speicher). Alte Pakete bleiben im Sync-Ordner liegen; neue Geräte lesen dank Schnappschüssen trotzdem nur wenige Dateien. Nutzen die Geräte verschiedene Atramentum-Versionen, übernimmt das ältere Änderungen des neueren erst nach einem Update (es meldet „Update nötig“). Gleichzeitiges Umordnen derselben Kapitel auf zwei Geräten kann eine ungewohnte Reihenfolge ergeben.
 - Ein Projekt darf nicht in iCloud Drive, Dropbox, OneDrive, Google Drive oder einem ähnlich abgeglichenen Ordner liegen. Atramentum erkennt solche Orte und bietet an, das Projekt lokal zu kopieren. Sicherungsarchive dürfen dagegen in der Cloud liegen.
 - Ein Projekt kann nur von einer laufenden Atramentum-Instanz zugleich geöffnet werden.
 
