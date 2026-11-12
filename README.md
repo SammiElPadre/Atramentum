@@ -2,7 +2,7 @@
 
 Atramentum ist ein kostenloses Schreibprogramm für Romane und andere lange Texte. Ihr Buch besteht aus Kapiteln und Szenen. Dazu kommen Figuren, Orte, Notizen, eine Pinnwand, ein Zeitstrahl und ein Figurennetz.
 
-*Atramentum is a free writing app for novelists (Mac, Windows, Linux). The interface is available in English, German, French, Spanish, Portuguese and Italian; downloads are below.*
+*Atramentum is a free writing app for novelists (Mac, Windows, Linux, Android; iPhone and iPad coming via the App Store). The interface is available in English, German, French, Spanish, Portuguese and Italian; downloads are below.*
 
 - **Kostenlos**, ohne Bezahlversion, Abo oder Konto.
 - **Ihre Texte bleiben bei Ihnen:** Atramentum speichert lokal auf Ihrem Rechner und braucht kein Internet. Es sendet keine Texte oder persönlichen Daten; nur wenn Sie es erlauben, fragt es einmal am Tag nach einer neuen Version.
@@ -10,6 +10,7 @@ Atramentum ist ein kostenloses Schreibprogramm für Romane und andere lange Text
 - **Austausch:** Import aus Word, Markdown und Text, Export als Word, PDF (Normseite oder Leseexemplar), Markdown und Text.
 - **Hell oder dunkel, in sechs Sprachen:** Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch.
 - **Updates per Klick** direkt in der App.
+- **Auf allen Geräten:** Mac, Windows, Linux und Android; iPhone und iPad folgen über den App Store. Abgleich zwischen Geräten über einen Ordner Ihres Cloud-Dienstes (iCloud Drive, Dropbox, OneDrive …), ohne Konto bei uns.
 
 ## So sieht Atramentum aus
 
@@ -50,7 +51,7 @@ Atramentum ist ein kostenloses Schreibprogramm für Romane und andere lange Text
 Prüfsummen und Rettungswerkzeuge: [Release-Seite](https://github.com/SammiElPadre/Atramentum/releases/tag/v0.1.3).
 <!-- /DOWNLOAD -->
 
-Atramentum ist nicht bei Apple notarisiert und nicht mit einem Microsoft-Zertifikat signiert. Deshalb fragen macOS und Windows beim ersten Start einmal nach; die Anleitungen zeigen, wie Sie trotzdem öffnen. Danach hält sich Atramentum über **Hilfe › Nach Updates suchen …** selbst aktuell.
+Atramentum ist nicht bei Apple notarisiert und nicht mit einem Microsoft-Zertifikat signiert. Deshalb fragen macOS und Windows beim ersten Start einmal nach, Android beim Installieren; die Anleitungen zeigen, wie Sie trotzdem öffnen. Danach hält sich Atramentum über **Hilfe › Nach Updates suchen …** selbst aktuell.
 
 ## Anleitungen
 
