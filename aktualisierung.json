@@ -1,17 +1,27 @@
 {
-  "version": "0.1.1",
-  "datum": "2026-11-11",
-  "hinweise": "Dunkler Modus, Oberfläche in sechs Sprachen, Updates per Klick, Windows-Fassung.",
+  "version": "0.1.2",
+  "datum": "2026-11-12",
+  "hinweise": "Neu: Abgleich mehrerer Geräte über einen Sync-Ordner (iCloud Drive, Dropbox, OneDrive, Nextcloud …), eigene Angaben in Figuren- und Ortsbögen, Suche beim Tippen in Auswahllisten, im Text erwähnte Figuren und Orte mit „+“ verknüpfen, Fassung mit optionalem Kommentar, Beagle-Mode im Dunkelmodus dunkel, Projektname nur noch einmal. Erstmals auch für Linux (deb und AppImage).",
   "dateien": {
     "mac": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.1/Atramentum-0.1.1.dmg",
-      "sha256": "c76ee65a867a65995f56a853f410b6c34d5c00fe7b3a1addcedbad6e1b58e44d",
-      "groesse": 15432869
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.2/Atramentum-0.1.2.dmg",
+      "sha256": "4d3ab7e9783f96a9ac2ab6f88c279181d70e3e182c36ad88aac5ae0f3403baef",
+      "groesse": 15649838
     },
     "windows": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.1/Atramentum_0.1.1_x64-setup.exe",
-      "sha256": "12a79ea0c5d14f78fb61f895f4c162c21679d4228577821627dd07a00f81ac91",
-      "groesse": 3798478
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.2/Atramentum_0.1.2_x64-setup.exe",
+      "sha256": "dbea62328c15e2f23ac972cf979e014ca9473edc3eae6e17ed38d7e8847acb9b",
+      "groesse": 3860614
+    },
+    "linux-deb": {
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.2/Atramentum_0.1.2_amd64.deb",
+      "sha256": "6e0c90b676404f7adc5a449a45f3038ab7278add75405cc1480380b8ce8fd758",
+      "groesse": 5500372
+    },
+    "linux-appimage": {
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.2/Atramentum_0.1.2_amd64.AppImage",
+      "sha256": "e451ff932ebafc5d85425947da574c76000623dee98bda864a5f04419cdd3354",
+      "groesse": 83720696
     }
   }
 }

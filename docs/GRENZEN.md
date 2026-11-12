@@ -1,6 +1,6 @@
 # Bekannte Grenzen
 
-Stand: Version 0.1.1 (Testfassung), November 2026. Hier steht, was Atramentum bewusst noch nicht kann oder nur vereinfacht macht. Fehler im Sinne von „funktioniert anders als beschrieben“ gehören nicht hierher, sondern in eine Fehlermeldung.
+Stand: Version 0.1.2 (Testfassung), November 2026. Hier steht, was Atramentum bewusst noch nicht kann oder nur vereinfacht macht. Fehler im Sinne von „funktioniert anders als beschrieben“ gehören nicht hierher, sondern in eine Fehlermeldung.
 
 ## Plattform und Ausstattung
 
@@ -13,7 +13,7 @@ Stand: Version 0.1.1 (Testfassung), November 2026. Hier steht, was Atramentum be
 
 ## Gleichzeitiges Arbeiten und Cloud
 
-- Es gibt keine Synchronisation zwischen Geräten. Projekte wandern über **Sicherung erstellen** und **Aus Sicherung wiederherstellen**.
+- Abgleich zwischen Geräten gibt es über einen Sync-Ordner (siehe Einführung). Noch nicht: direkte Anbindung an Cloud-Dienste ohne deren Programm, WebDAV, Verschlüsselung der Pakete (sie liegen lesbar in Ihrem eigenen Cloud-Speicher), automatisches Aufräumen alter Pakete. Gleichzeitiges Umordnen derselben Kapitel auf zwei Geräten kann eine ungewohnte Reihenfolge ergeben.
 - Ein Projekt darf nicht in iCloud Drive, Dropbox, OneDrive, Google Drive oder einem ähnlich abgeglichenen Ordner liegen. Atramentum erkennt solche Orte und bietet an, das Projekt lokal zu kopieren. Sicherungsarchive dürfen dagegen in der Cloud liegen.
 - Ein Projekt kann nur von einer laufenden Atramentum-Instanz zugleich geöffnet werden.
 

@@ -110,6 +110,17 @@ Legen Sie das Projekt selbst nicht in iCloud Drive, Dropbox oder einen ähnliche
 
 Was dabei verloren geht, steht in [Bekannte Grenzen](GRENZEN.md).
 
+## Mehrere Geräte (Abgleich)
+
+Atramentum gleicht ein Projekt über einen **Sync-Ordner** ab: einen Ordner, den Dropbox, OneDrive, Google Drive, iCloud Drive oder Nextcloud ohnehin zwischen Ihren Geräten abgleicht. Ein Konto bei Atramentum gibt es nicht.
+
+1. Auf dem ersten Gerät: **Ablage › Abgleich einrichten …** und den Ordner wählen, zum Beispiel einen neuen Ordner „Atramentum-Abgleich“ in Ihrer Dropbox.
+2. Auf dem zweiten Gerät: **Ablage › Projekt aus Sync-Ordner holen …** (oder auf dem Startbildschirm „Aus Sync-Ordner holen“) und denselben Ordner wählen.
+
+Danach gleicht Atramentum beim Öffnen und jede Minute ab; unten in der Statusleiste steht, wann zuletzt. **Jetzt abgleichen** stößt es sofort an. Das Projekt selbst bleibt dabei lokal auf jedem Gerät; im Sync-Ordner liegen nur Änderungspakete.
+
+Wurde dieselbe Szene auf zwei Geräten gleichzeitig geändert, gilt der neuere Stand auf allen Geräten. Der andere geht nicht verloren: Er liegt bei der Szene unter **Fassungen** („Abgleich: …“).
+
 ## Updates
 
 Unter **Hilfe › Nach Updates suchen …** (auf dem Mac im Menü **Atramentum**) prüft Atramentum, ob es eine neuere Version gibt. Ein Klick lädt sie, prüft sie und installiert sie. Danach startet Atramentum neu. Vorher speichert es alles; Ihre Projekte bleiben unberührt.
