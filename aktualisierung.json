@@ -1,33 +1,33 @@
 {
-  "version": "0.1.5",
+  "version": "0.1.6",
   "datum": "2026-11-13",
-  "hinweise": "Neu: Fassungen vergleichen, Gliederung und Szenenkarten, farbige Etiketten und Schlagwörter, Vorlesen mit mitlaufender Markierung, geteilte Ansicht (zweite Szene oder Figurenbogen neben dem Text), Ausgabe gestalten (Titelseite, Widmung, Impressum, Seitenformat, Schrift) für PDF, Word und E-Book. Android mit neuem App-Symbol.",
+  "hinweise": "Neu: Auf dem Telefon heißt der Knopf für die Liste der Figuren, Orte und Notizen jetzt passend und zeigt ein Listen-Symbol; im Querformat bleibt das Eingabefeld über der Bildschirmtastatur sichtbar. Die Statusleiste zeigt keine Entwickler-Messwerte mehr. Mac: Links öffnen über das System. Dazu alles aus 0.1.5 (Fassungsvergleich, Gliederung, Vorlesen, geteilte Ansicht, Ausgabe gestalten).",
   "dateien": {
     "mac": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.5/Atramentum-0.1.5.dmg",
-      "sha256": "f60e1ee1f8b6ff8332424f4aa09eed4de3a98c7421d838d2176c3fa3eb21f223",
-      "groesse": 16946640
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.6/Atramentum-0.1.6.dmg",
+      "sha256": "4f31c4bd3a564054bbe666d74f1e06dfdc74ee0a04d8e64cd1d2a9c9603eeb2b",
+      "groesse": 16949099
     },
     "windows": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.5/Atramentum_0.1.5_x64-setup.exe",
-      "sha256": "0ccc7fe6c9fbf2bc5a083d8dee7bcd4fd66009659a44f97bc7296302a611feac",
-      "groesse": 4277375
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.6/Atramentum_0.1.6_x64-setup.exe",
+      "sha256": "795905502623a1946209d0bfd5e241b53f11e54bfc5fdc0165ae58191bd4b325",
+      "groesse": 4279635
     },
     "linux-deb": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.5/Atramentum_0.1.5_amd64.deb",
-      "sha256": "681e53be8f539eceddc9da747a4b85efbe62a09b77d353b4433362d338b27cd2",
-      "groesse": 6054160
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.6/Atramentum_0.1.6_amd64.deb",
+      "sha256": "8c88f9408a2b4869a67cdd8f1c2aafaf78fb56b02a990f81e3143f17ef7c50a6",
+      "groesse": 6053352
     },
     "linux-appimage": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.5/Atramentum_0.1.5_amd64.AppImage",
-      "sha256": "b463740fd04cdf6d49aef3300561c479bfa97e3397262842f0624f453c9f0d99",
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.6/Atramentum_0.1.6_amd64.AppImage",
+      "sha256": "5531886cef601d3d7aff9cc9712221f2e7bd1e8af4278fc7e19adfe1b21c86ae",
       "groesse": 84212216
     },
     "android": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.5/Atramentum_0.1.5_android.apk",
-      "sha256": "28c4aac8a6d37de47a986dfc6b6446a2f06768f229ef8c73c7283af0dc182662",
-      "groesse": 69839643
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.6/Atramentum_0.1.6_android.apk",
+      "sha256": "474c9fcfdea31556b7ae2338b752d6b977911474c55b3b19dea0f655918070be",
+      "groesse": 69824747
     }
   },
-  "downloads_frueher": 191
+  "downloads_frueher": 202
 }
