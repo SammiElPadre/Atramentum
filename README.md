@@ -1,12 +1,15 @@
 # Atramentum
 
-Atramentum ist ein kostenloses Schreibprogramm für Romane und andere lange Texte. Ihr Buch besteht aus Kapiteln und Szenen. Dazu kommen Figuren, Orte, Notizen, eine Pinnwand, ein Zeitstrahl und ein Figurennetz.
+**Das kostenlose Schreibprogramm für Romane. Ihr Manuskript bleibt bei Ihnen: kein Abo, kein Konto, keine Datensammlung, kein KI-Training.**
 
-*Atramentum is a free writing app for novelists (Mac, Windows, Linux, Android; iPhone and iPad coming via the App Store). The interface is available in English, German, French, Spanish, Portuguese and Italian; downloads are below.*
+**Deutsch** · [English](README.en.md) · [Webseite](https://sammielpadre.github.io/Atramentum/)
 
-- **Kostenlos**, ohne Bezahlversion, Abo oder Konto.
-- **Ihre Texte bleiben bei Ihnen:** Atramentum speichert lokal auf Ihrem Rechner und braucht kein Internet. Es sendet keine Texte oder persönlichen Daten; nur wenn Sie es erlauben, fragt es einmal am Tag nach einer neuen Version.
+Atramentum ist für lange Texte gebaut. Ihr Buch besteht aus Kapiteln und Szenen. Dazu kommen Figuren, Orte, Notizen, eine Pinnwand, ein Zeitstrahl und ein Figurennetz, alles in einem Projekt.
+
+- **Kostenlos**, ohne Bezahlversion, Abo, Konto oder Werbung.
+- **Ihre Texte bleiben bei Ihnen:** Atramentum speichert lokal auf Ihrem Rechner und braucht kein Internet. Es sendet keine Texte oder persönlichen Daten. Nur wenn Sie es erlauben, fragt es einmal am Tag nach einer neuen Version.
 - **Sicher:** Gespeichert wird bei jeder Änderung. Dazu kommen Fassungen jeder Szene, ein Papierkorb, tägliche automatische Sicherungen und ein Rettungswerkzeug.
+- **Planung eingebaut:** eine Pinnwand mit Zetteln, Gruppen und Verbindungen, ein Zeitstrahl, der die erzählte Zeit verfolgt und Rückblenden erkennt, und ein **Figurennetz**, das Beziehungen und Zustände zu jedem Zeitpunkt der Geschichte zeigt.
 - **Austausch:** Import aus Word, Markdown und Text, Export als Word, PDF (Normseite oder Leseexemplar), Markdown und Text.
 - **Hell oder dunkel, in sechs Sprachen:** Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch.
 - **Updates per Klick** direkt in der App.

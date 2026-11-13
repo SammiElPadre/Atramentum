@@ -1,0 +1,75 @@
+ATRAMENTUM FOR LINUX – INSTALLATION (TEST RELEASE)
+==================================================
+
+Atramentum is free. There is no paid version, no account and no sign-up.
+Atramentum does not need the internet and never sends your texts or
+personal data anywhere. Only if you allow it does it check GitHub for a
+new version, at most once a day.
+
+Requirements: 64-bit Linux (x86_64) with a desktop, for example
+Ubuntu 22.04 or later, Debian 12, Fedora 39 or Linux Mint 21.
+
+This is a test release. Please make regular backups
+(File > Create Backup …) and report anything you notice.
+
+
+1. Install – two ways
+---------------------
+a) Ubuntu, Debian, Mint (recommended): the .deb package
+
+       sudo apt install ./Atramentum_<version>_amd64.deb
+
+   Atramentum then appears in your application menu.
+
+b) All other distributions: the AppImage (no installation)
+
+       chmod +x Atramentum_<version>_amd64.AppImage
+       ./Atramentum_<version>_amd64.AppImage
+
+   If the system reports "libfuse.so.2 missing": on Ubuntu 24.04
+   "sudo apt install libfuse2t64", on older versions "sudo apt install libfuse2".
+
+PDF export in Times uses the font "Liberation Serif" (package
+fonts-liberation, usually preinstalled). Without it, only the
+"Standard Manuscript" template (Courier) is available.
+
+
+2. Update
+---------
+Atramentum offers updates itself (Help > Check for Updates …). The
+AppImage is replaced directly; for the deb package the system asks for
+your password. By hand: install the new version as above.
+Your projects are in the folder ~/Atramentum and are not affected.
+When the file format changes, Atramentum automatically backs up the
+project before converting it.
+
+
+3. Uninstall
+------------
+  - App: "sudo apt remove atramentum", or delete the AppImage.
+  - Settings and automatic daily backups (optional):
+      ~/.local/share/io.github.sammielpadre.atramentum
+      ~/.cache/io.github.sammielpadre.atramentum
+  - Your projects in ~/Atramentum are NOT deleted.
+
+
+4. Rescue tool
+--------------
+"atramentum-rettung" reads a project without the app and writes all texts
+out as readable files, in case Atramentum ever fails to start:
+
+    chmod +x atramentum-rettung
+    ./atramentum-rettung ~/Atramentum/"My Novel.atramentum" ~/Rescue
+
+
+5. Verify the download
+----------------------
+    sha256sum -c SHA256SUMMEN.txt
+
+
+Differences from the Mac version
+--------------------------------
+  - Shortcuts use Ctrl instead of ⌘ (the menus show them).
+  - Heading 1/2 and normal paragraph: Ctrl+Shift+1/2/0.
+  - Full screen: F11.
+  - Dictation and the emoji picker are not available in this version.

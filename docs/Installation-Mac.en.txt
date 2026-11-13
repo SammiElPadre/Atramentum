@@ -1,0 +1,74 @@
+ATRAMENTUM – INSTALLATION (MAC)
+===============================
+
+Atramentum is free. There is no paid version, no account and no sign-up.
+Atramentum does not need the internet and never sends your texts or
+personal data anywhere. Only if you allow it does it check GitHub for a
+new version, at most once a day.
+
+Requirements: macOS 13 (Ventura) or later, Apple silicon or Intel.
+
+
+1. Install
+----------
+Drag "Atramentum" in this disk image onto "Applications".
+You can then close this window and eject the disk image.
+
+
+2. First launch
+---------------
+Atramentum is not notarized by Apple, so macOS shows a warning the first
+time you open it. This happens only once.
+
+  a) Double-click Atramentum in "Applications".
+     macOS says it cannot verify Atramentum. Click "Done"
+     (not "Move to Trash").
+  b) Open System Settings > Privacy & Security.
+     Further down you will see a note about "Atramentum".
+     Click "Open Anyway".
+  c) Confirm with "Open" and your password or Touch ID.
+
+From then on, Atramentum starts normally.
+
+If macOS says instead that Atramentum is "damaged", the file was altered
+during the download. Please download it again from the official page and
+compare the checksum (see 5.).
+
+
+3. Update
+---------
+Atramentum offers updates itself (Help or Atramentum > Check for
+Updates …): one click downloads, verifies and installs the new version.
+By hand: download the new version, drag it onto "Applications" again and
+choose "Replace". Your projects are not affected; they are not stored in
+the app but in the folder "Atramentum" in your home folder.
+When the file format changes, Atramentum automatically backs up the
+project before converting it.
+
+
+4. Uninstall
+------------
+  - App: move "Atramentum" from "Applications" to the Trash.
+  - Settings and automatic backups (optional), in Finder via
+    Go > Go to Folder …:
+      ~/Library/Application Support/io.github.sammielpadre.atramentum
+      ~/Library/WebKit/io.github.sammielpadre.atramentum
+      ~/Library/Caches/io.github.sammielpadre.atramentum
+  - Your projects are in ~/Atramentum (or wherever you created them).
+    They are NOT deleted when you uninstall. Only delete that folder if
+    you really no longer need your texts.
+
+Note: The "Application Support" folder contains the automatic daily
+backups of your projects. Keep it if you are unsure.
+
+
+5. Verify the download
+----------------------
+A SHA-256 checksum is published for every version. In Terminal:
+
+    shasum -a 256 ~/Downloads/Atramentum-*.dmg
+
+The value shown must match the published one.
+
+
+Help and feedback: in Atramentum under Help.

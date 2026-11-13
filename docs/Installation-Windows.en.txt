@@ -1,0 +1,76 @@
+ATRAMENTUM FOR WINDOWS – INSTALLATION (TEST RELEASE)
+====================================================
+
+Atramentum is free. There is no paid version, no account and no sign-up.
+Atramentum does not need the internet and never sends your texts or
+personal data anywhere. Only if you allow it does it check GitHub for a
+new version, at most once a day.
+
+Requirements: Windows 10 or 11, 64-bit.
+
+This is a test release. Please make regular backups
+(File > Create Backup …) and report anything you notice.
+
+
+1. Install
+----------
+Double-click "Atramentum_<version>_x64-setup.exe".
+
+Atramentum is not (yet) signed with a Microsoft certificate. That's why
+Windows warns with "Windows protected your PC" the first time:
+
+  a) Click "More info".
+  b) Click "Run anyway".
+
+Installation does not need administrator rights. If an older system lacks
+the Microsoft Edge WebView2 runtime, the setup downloads it (this needs an
+internet connection once).
+
+
+2. Update
+---------
+Atramentum offers updates itself (Help > Check for Updates …): one click
+downloads, verifies and installs the new version. By hand: download the
+new version and run the setup again. Your projects are not affected; they
+are not stored in the app but in the folder "Atramentum" in your user
+folder (C:\Users\<name>\Atramentum).
+When the file format changes, Atramentum automatically backs up the
+project before converting it.
+
+
+3. Uninstall
+------------
+  - App: Settings > Apps > Installed apps > Atramentum > Uninstall.
+  - Settings and automatic daily backups (optional):
+      %APPDATA%\io.github.sammielpadre.atramentum
+      %LOCALAPPDATA%\io.github.sammielpadre.atramentum
+  - Your projects in the folder "Atramentum" in your user folder are NOT
+    deleted. Only delete it if you really no longer need your texts.
+
+
+4. Rescue tool
+--------------
+"atramentum-rettung.exe" reads a project without the app and writes all
+texts out as readable files, in case Atramentum ever fails to start:
+
+    atramentum-rettung.exe "C:\Users\<name>\Atramentum\My Novel.atramentum" "C:\Rescue"
+
+The project itself is not changed. Please close Atramentum first.
+
+
+5. Verify the download
+----------------------
+In PowerShell:
+
+    Get-FileHash .\Atramentum_*_x64-setup.exe -Algorithm SHA256
+
+The value must match the one in SHA256SUMMEN.txt.
+
+
+Differences from the Mac version
+--------------------------------
+  - Shortcuts use Ctrl instead of ⌘ (the menus show them).
+  - Heading 1/2 and normal paragraph: Ctrl+Shift+1/2/0
+    (Ctrl+Alt is AltGr on Windows and would swallow characters).
+  - Full screen: F11. Emoji: Windows key + period.
+  - Dictation is not available in this version yet.

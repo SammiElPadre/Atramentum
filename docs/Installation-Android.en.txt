@@ -1,0 +1,77 @@
+ATRAMENTUM FOR ANDROID – INSTALLATION (TEST RELEASE)
+====================================================
+
+Atramentum is free. There is no paid version, no account and no sign-up.
+Atramentum does not need the internet and never sends your texts or
+personal data anywhere. Only if you allow it does it check GitHub for a
+new version, at most once a day.
+
+Requirements: Android 7 or later, phone or tablet.
+
+Atramentum for Android is not in the Play Store but available directly
+here on GitHub. That's why Android asks for your permission once.
+
+This is a test release. Please make regular backups
+(File › Create Backup …) and report anything you notice.
+
+
+1. Install
+----------
+1. Open this page on your Android device and tap the file
+   "Atramentum_<version>_android.apk".
+2. After the download, tap "Open" (or tap the file in the "Files" app
+   under "Downloads").
+3. Android says your browser is not allowed to install apps:
+   tap "Settings", turn on "Allow from this source", go back, then tap
+   "Install".
+4. Google Play Protect may warn that the app is unknown. That is because
+   it does not come from the Play Store. Choose "More details" and
+   "Install anyway".
+
+Atramentum then appears among your apps.
+
+
+2. Updates
+----------
+On first launch, Atramentum asks whether it should look for new versions
+itself. You can also choose "Help › Check for Updates …" at any time.
+On the first update, Android asks once for permission to "Install apps
+from this source" for Atramentum; after that, tapping "Install" is enough.
+Your projects are kept.
+
+
+3. Where your projects are stored
+---------------------------------
+Projects, exports and backups are stored in the app's protected area.
+After creating an export (Word, PDF, Markdown) or a backup, Atramentum
+offers it via "Share": save to Files, send by email, put it in
+Google Drive …
+
+IMPORTANT: If you uninstall Atramentum, Android also deletes all of the
+app's projects. Create a backup first and save it outside the app
+(File › Create Backup …, then "Share").
+
+
+4. Sync with other devices
+--------------------------
+Google Drive and OneDrive do not create a synced folder on Android. To
+sync with a Mac, Windows PC or another device, you need a sync app that
+keeps a folder on the device in sync with your cloud (for example
+FolderSync or Autosync for Google Drive, OneDrive and Dropbox, or
+Syncthing between your own devices). Choose that folder in Atramentum
+under "File › Set Up Sync …".
+These apps come from other providers; we have not tested them.
+
+
+5. Using Atramentum on a phone
+------------------------------
+- Chapters and scenes: the button on the far left of the bar below the menu.
+- "Margin" (scene details, note, characters): the button on the far right.
+- Corkboard and character web: zoom and pan with two fingers.
+- The back gesture first closes open lists, menus and dialogs.
+
+
+6. Uninstall
+------------
+Settings › Apps › Atramentum › Uninstall. Create a backup first
+(see section 3).
