@@ -25,9 +25,29 @@ Stand: Version 0.1.3 (Testfassung), November 2026. Hier steht, was Atramentum be
 
 ## Text und Gestaltung
 
-- **Auszeichnungen im Text:** Absätze, drei Überschriftenebenen, Szenentrenner, Fett und Kursiv.
-- **Fehlt noch:** Unterstreichung, Listen, Fußnoten, Kommentare, Bilder und Tabellen.
+- **Auszeichnungen im Text:** Absätze, drei Überschriftenebenen, Szenentrenner, Fett, Kursiv, Unterstreichung, Listen (Aufzählung und Nummerierung, drei Ebenen), Fußnoten, Kommentare, Bilder und Tabellen.
+- **Bilder:** PNG, JPEG, GIF und WebP bis 25 MB je Bild. Im PDF erscheinen PNG und JPEG; GIF und WebP stehen dort als Platzhalter „[Bild: …]“. Ein Bild steht immer als eigener Block zwischen Absätzen (kein Text daneben).
+- **Tabellen:** Zellen enthalten einfachen Text (Fett, Kursiv und Unterstreichung bleiben erhalten), keine Absätze, Listen oder Bilder; verbundene Zellen gibt es nicht. Bearbeitet wird eine Tabelle in einem eigenen Fenster (Tabelle antippen). Höchstens 30 Spalten und 2000 Zeilen. Im PDF sind alle Spalten gleich breit.
 - **Zählung:** Wörter und Zeichen folgen einer festen, dokumentierten Regel. Andere Programme zählen teils anders, Abweichungen von wenigen Prozent sind normal.
+
+## Rechtschreibung und Grammatik
+
+- Geprüft wird mit der Prüfung des jeweiligen Systems:
+  - **Mac:** Rechtschreibung und Grammatik.
+  - **Windows:** Rechtschreibung (Windows bringt keine Grammatikprüfung für Programme mit).
+  - **Linux:** Rechtschreibung über Enchant. Dafür muss das Wörterbuch der Sprache installiert sein, etwa das Paket `hunspell-de-de`.
+  - **iPhone und iPad:** Rechtschreibung des Systems (ohne Grammatik).
+  - **Android:** der Rechtschreibdienst des Geräts, meist Gboard, teils mit Grammatikhinweisen. Er prüft nur Sprachen, deren Wörterbuch auf dem Gerät geladen ist.
+- Eine vollständige Grammatikprüfung wie in Papyrus Autor bietet Atramentum nicht. Dafür bräuchte es eine große Fremdbibliothek oder einen Onlinedienst, und beides schließt Atramentum bewusst aus.
+- Die eigenen Regeln sind absichtlich vorsichtig und melden nur wenige, sehr wahrscheinliche Fehler.
+
+## Stilanalyse
+
+- Die Hinweise beruhen auf einfachen Regeln, nicht auf einem Sprachmodell. Sie erkennen typische Muster, aber nicht jeden Fall:
+  - Passiv wird nur angenähert, starke Partizipien ohne „ge-“ (etwa „vergessen“) fallen durch.
+  - Namen gelten bei Wortwiederholungen wie andere Wörter.
+- Hinweise gibt es für Deutsch und Englisch (nach der Projektsprache). In anderen Sprachen zeigt die Leiste nur Kennzahlen und lange Sätze.
+- Die Lesbarkeit nach Flesch zählt Silben näherungsweise über Vokalgruppen.
 
 ## Pinnwand, Zeitstrahl und Figurennetz
 
@@ -47,12 +67,13 @@ Stand: Version 0.1.3 (Testfassung), November 2026. Hier steht, was Atramentum be
 ## Import
 
 - **Word (.docx):**
-  - Übernommen werden Kapitel und Szenen über die Formatvorlagen „Überschrift 1/2“, dazu Text, Fett und Kursiv.
-  - Bilder, Fuß- und Endnoten, Kommentare, Tabellen, Textfelder und Unterstreichungen gehen verloren. Der Importbericht nennt sie.
-- **Markdown und Text:** Links behalten nur ihren Text, und Listen werden zu Absätzen.
+  - Übernommen werden Kapitel und Szenen über die Formatvorlagen „Überschrift 1/2“, dazu Text, Fett, Kursiv, Unterstreichung, Listen, Fuß- und Endnoten (als Fußnoten), Kommentare und Bilder.
+  - Tabellen kommen als Tabellen an; verbundene Zellen werden aufgeteilt, Tabellen in Tabellen werden zu Text. Textfelder und Zeichnungen gehen verloren. Der Importbericht nennt sie.
+- **Markdown und Text:** Links behalten nur ihren Text.
 - **Ohne Überschriften-Formatvorlagen:** Fehlen sie, landet alles in einem Kapitel. Atramentum rät keine Struktur aus Schriftgrößen.
-- **Papyrus Autor, Scrivener und ähnliche Programme:** Es gibt keinen Direktimport. Exportieren Sie dort als Word-Datei und importieren Sie diese in Atramentum.
-- **Obergrenzen:** Abgelehnt werden Dateien über 64 MB oder mit mehr als 20 000 Szenen.
+- **Scrivener (2 und 3):** Importiert wird der Projektordner „….scriv“ bzw. die Datei „….scrivx“ darin (auf dem Computer; auf Telefon und Tablet lässt sich kein Projektordner wählen). Ordner im Manuskript werden Kapitel, Texte Szenen, tiefere Ordner werden aufgelöst. Synopsis und Dokumentnotizen werden die Szenennotiz. Ordner wie „Characters/Figuren“ und „Places/Orte“ werden Figuren und Orte, übrige Texte Notizen. Nicht übernommen: Kommentare, Schlagwörter, Status und Etiketten, Schnappschüsse, Kompilier-Einstellungen sowie PDFs, Bilder und Webseiten aus der Recherche; Bilder im TIFF-Format. Scrivener 1 wird nicht unterstützt.
+- **Papyrus Autor und ähnliche Programme:** Es gibt keinen Direktimport, weil das Dateiformat nicht offengelegt ist. Exportieren Sie dort als Word-Datei und importieren Sie diese in Atramentum.
+- **Obergrenzen:** Abgelehnt werden Dateien über 512 MB oder mit mehr als 20 000 Szenen sowie einzelne Bilder über 25 MB.
 
 ## Export
 
@@ -62,6 +83,7 @@ Stand: Version 0.1.3 (Testfassung), November 2026. Hier steht, was Atramentum be
   - Emoji, griechische, kyrillische und andere Schriften erscheinen als „?“. Die PDF-Vorschau nennt vor dem Speichern die Anzahl.
 - **Normseite:** Atramentum verwendet eine verbreitete Variante mit 30 Zeilen zu 60 Anschlägen. Fragen Sie Ihren Verlag, ob er eine andere wünscht.
 - **Word:** Die Datei ist schlicht gehalten (Times New Roman 12 pt, 1,5-zeilig) und eher für das Lektorat gedacht als für einen fertigen Satz.
+- **E-Book (EPUB 3):** Eine schlichte, gut lesbare Gestaltung ohne Wahl von Schriften oder Vorlagen. Kommentare kommen nicht ins Buch, Fußnoten werden E-Book-Fußnoten. Das Titelbild muss ein PNG- oder JPEG-Bild sein. Geprüft wird jedes Buch-Beispiel mit epubcheck, dem Prüfwerkzeug des W3C. Für Kindle laden Sie die EPUB-Datei bei Amazon KDP hoch; ein eigenes Kindle-Format erzeugt Atramentum nicht.
 
 ## Größe
 

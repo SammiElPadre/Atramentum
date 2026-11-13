@@ -7,7 +7,7 @@ Atramentum ist ein kostenloses Schreibprogramm für Romane und andere lange Text
 ## Erste Schritte
 
 1. Starten Sie Atramentum und wählen Sie **Neues Projekt …**.
-2. Geben Sie einen Namen ein. Das Projekt entsteht als `Name.atramentum` im Ordner **Atramentum** in Ihrem Benutzerordner.
+2. Geben Sie einen Namen ein. Das Projekt entsteht als `Name.atramentum` im Ordner **Atramentum** in Ihrem Benutzerordner. Auf dem Mac erscheint es im Finder als ein einziges Dokument; ein Doppelklick öffnet es in Atramentum (den Inhalt zeigt „Paketinhalt zeigen“ im Kontextmenü). Ein Doppelklick auf eine Sicherung (`.atramentumsicherung`) bietet auf allen Computern an, sie als neues Projekt wiederherzustellen.
 3. Atramentum legt ein erstes Kapitel mit einer ersten Szene an. Schreiben Sie los.
 
 Gespeichert wird automatisch, einen Speichern-Befehl brauchen Sie nicht. Unten links zeigt die Statusleiste „Auf diesem Gerät gespeichert“ mit Uhrzeit. Eine Warnung erscheint dort nur, wenn etwas nicht gespeichert werden konnte, etwa weil die Festplatte voll ist. Der Text bleibt in diesem Fall im Fenster stehen, bis das Speichern wieder klappt.
@@ -81,6 +81,27 @@ Atramentum sichert beim Schreiben regelmäßig **Fassungen** jeder Szene.
 - **Im ganzen Projekt suchen:** ⌘F, ersetzen mit ⌥⌘F. Auch eine Ersetzung lässt sich zurücknehmen.
 - **Statistik und Ziele:** ⇧⌘I zeigt Wörter und Zeichen mit und ohne Leerzeichen für Szene, Kapitel und Manuskript. Dort setzen Sie ein Tagesziel und ein Gesamtziel.
 
+## Stil überarbeiten
+
+**Überarbeiten › Stilanalyse der Szene** öffnet am Rand die Leiste **Stil**. Oben stehen Kennzahlen der Szene:
+- Lesbarkeit nach Flesch: 0–100, höher heißt leichter zu lesen; Romane liegen oft zwischen 60 und 80.
+- Zahl der Sätze, durchschnittliche und längste Satzlänge.
+- Anteil wörtlicher Rede.
+
+Darunter stehen Hinweise zu langen Sätzen, Wortwiederholungen auf engem Raum, Füllwörtern, Passiv und gleichen Satzanfängen. Ein Klick markiert die Stelle im Text. Jede Art lässt sich mit ihrem Häkchen ausblenden. Nach jedem Speichern prüft Atramentum neu.
+
+Die Hinweise sind Vorschläge, keine Fehler: Atramentum ändert nichts am Text, und alles bleibt auf Ihrem Gerät. **Überarbeiten › Stilübersicht des Manuskripts** zeigt die Kennzahlen aller Szenen nebeneinander; ein Klick auf eine Szene öffnet sie mit der Stilleiste.
+
+## Rechtschreibung und Grammatik prüfen
+
+Beim Tippen unterstreicht das System Rechtschreibfehler, auf dem Mac auch Grammatikfehler. **Überarbeiten › Rechtschreibung und Grammatik prüfen …** geht das ganze Manuskript durch und zeigt am Rand alle Stellen, nach Szenen geordnet.
+
+- **Ein Klick** auf eine Stelle öffnet die Szene und markiert das Wort.
+- **Ein Vorschlag** ersetzt es. Vorher sichert Atramentum eine Fassung der Szene.
+- **Ignorieren** merkt sich das Wort für dieses Projekt.
+
+Namen von Figuren, Orten und Notizen gelten automatisch als bekannt. Zusätzlich zur Prüfung des Systems findet Atramentum einige häufige Fehler selbst: doppelte Wörter, „ihr seit“/„seid Jahren“, „sagte, das …“ statt „dass“ sowie Leerzeichen vor Satzzeichen.
+
 ## Ablenkungsfrei schreiben
 
 - **Fokusmodus** ⇧⌘F: blendet Seitenleisten aus.
@@ -106,7 +127,7 @@ Legen Sie das Projekt selbst nicht in iCloud Drive, Dropbox oder einen ähnliche
 ## Austausch mit anderen Programmen
 
 - **Importieren:** Word (.docx), Markdown und Text. Kapitel und Szenen erkennt Atramentum an den Überschriften „Überschrift 1“ und „Überschrift 2“.
-- **Exportieren** ⇧⌘E: PDF als Normseite oder Leseexemplar, Word, Markdown oder Text. Der Umfang ist wählbar: ganzes Manuskript, ein Kapitel oder eine Szene. Vor dem PDF sehen Sie eine Vorschau.
+- **Exportieren** ⇧⌘E: PDF als Normseite oder Leseexemplar, Word, E-Book (EPUB, mit Autor und optionalem Titelbild), Markdown oder Text. Der Umfang ist wählbar: ganzes Manuskript, ein Kapitel oder eine Szene. Vor dem PDF sehen Sie eine Vorschau.
 
 Was dabei verloren geht, steht in [Bekannte Grenzen](GRENZEN.md).
 
