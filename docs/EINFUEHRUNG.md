@@ -24,6 +24,21 @@ Links sehen Sie den Projektbaum mit Kapiteln und Szenen.
 
 Am Rand rechts tragen Sie zu jeder Szene Status, Kurzinhalt, Perspektive und Handlungsstrang ein. Dort verknüpfen Sie die Szene auch mit Figuren, Orten und Notizen.
 
+- **Etikett:** Eine von sieben Farben je Szene, etwa für „noch überarbeiten“ oder einen Erzählstrang. Der Farbpunkt erscheint im Projektbaum.
+- **Schlagwörter:** Frei wählbare Wörter je Szene, durch Komma getrennt, etwa „Rückblende, Hafen“. Die Suche lässt sich auf ein Schlagwort einschränken.
+
+## Gliederung und Szenenkarten
+
+**Darstellung › Gliederung und Szenenkarten** ⌥⌘G zeigt alle Kapitel und Szenen auf einen Blick: als **Tabelle** mit Status, Etikett, Perspektive, Handlungsstrang, Schlagwörtern und Wortzahl oder als **Karten** mit dem Kurzinhalt.
+
+- **Filtern** nach Status, Etikett, Handlungsstrang oder Schlagwort.
+- **Umordnen:** Karten oder Zeilen ziehen oder mit den Pfeilknöpfen verschieben.
+- **Öffnen:** Ein Klick auf den Titel öffnet die Szene. **Zum Text** führt zurück.
+
+## Neben dem Text nachschlagen
+
+**Darstellung › Geteilte Ansicht** ⌥⌘T (oder **Daneben** in der Werkzeugleiste) zeigt neben dem Text ein zweites Blatt zum Lesen: eine andere Szene oder den Bogen einer Figur, eines Ortes oder einer Notiz. Oben wählen Sie, was daneben stehen soll. Im Projektbaum öffnet **Daneben öffnen** im Menü einer Szene sie direkt dort. Esc oder das Kreuz schließt das zweite Blatt. In einem schmalen Fenster stehen die beiden Blätter übereinander.
+
 ## Figuren, Orte und Notizen
 
 Wechseln Sie mit ⌘2 zu den Figuren, mit ⌘3 zu den Orten und mit ⌘4 zu den Notizen. ⌘1 führt zurück zum Manuskript.
@@ -75,6 +90,7 @@ Atramentum sichert beim Schreiben regelmäßig **Fassungen** jeder Szene.
 
 - **Eigene Fassung:** Mit ⌘S sichern Sie eine Fassung mit eigenem Namen, etwa vor einer großen Überarbeitung.
 - **Zurückholen:** Mit ⌥⌘S sehen Sie alle Fassungen und stellen eine wieder her.
+- **Vergleichen:** In der Fassungsliste zeigt **Vergleichen** zwei Stände nebeneinander im Fließtext: Neues ist hervorgehoben, Gestrichenes durchgestrichen, innerhalb geänderter Absätze Wort für Wort. **Nur Änderungen mit Umgebung zeigen** blendet unveränderte Absätze aus.
 
 ## Suchen, Statistik, Ziele
 
@@ -102,6 +118,10 @@ Beim Tippen unterstreicht das System Rechtschreibfehler, auf dem Mac auch Gramma
 
 Namen von Figuren, Orten und Notizen gelten automatisch als bekannt. Zusätzlich zur Prüfung des Systems findet Atramentum einige häufige Fehler selbst: doppelte Wörter, „ihr seit“/„seid Jahren“, „sagte, das …“ statt „dass“ sowie Leerzeichen vor Satzzeichen.
 
+## Vorlesen lassen
+
+**Überarbeiten › Vorlesen ein/aus** (oder **Vorlesen** in der Werkzeugleiste) liest die Szene ab dem Cursor vor, oder nur den markierten Text. Auf dem Mac, unter Windows und auf iPhone und iPad läuft dabei eine Markierung mit. Esc, der Knopf **Stopp** oder einfach Weitertippen beendet das Vorlesen. Gesprochen wird mit den Stimmen des Systems in der Sprache des Projekts; fehlt eine Stimme, lässt sie sich in den Systemeinstellungen unter Sprache bzw. Bedienungshilfen hinzufügen.
+
 ## Ablenkungsfrei schreiben
 
 - **Fokusmodus** ⇧⌘F: blendet Seitenleisten aus.
@@ -127,7 +147,8 @@ Legen Sie das Projekt selbst nicht in iCloud Drive, Dropbox oder einen ähnliche
 ## Austausch mit anderen Programmen
 
 - **Importieren:** Word (.docx), Markdown und Text. Kapitel und Szenen erkennt Atramentum an den Überschriften „Überschrift 1“ und „Überschrift 2“.
-- **Exportieren** ⇧⌘E: PDF als Normseite oder Leseexemplar, Word, E-Book (EPUB, mit Autor und optionalem Titelbild), Markdown oder Text. Der Umfang ist wählbar: ganzes Manuskript, ein Kapitel oder eine Szene. Vor dem PDF sehen Sie eine Vorschau.
+- **Exportieren** ⇧⌘E: PDF als Normseite, Leseexemplar oder in eigener Gestaltung, Word, E-Book (EPUB, mit Autor und optionalem Titelbild), Markdown oder Text. Der Umfang ist wählbar: ganzes Manuskript, ein Kapitel oder eine Szene. Vor dem PDF sehen Sie eine Vorschau.
+- **Ausgabe gestalten …** (Ablage): Titelseite mit Untertitel und Autor, Widmung und Impressum auf eigenen Seiten, das Zeichen zwischen zwei Szenen (etwa „* * *“ oder „~“) und ob jedes Kapitel auf einer neuen Seite beginnt. Das gilt für PDF, Word und E-Book. Seitenformat (A4, A5, Taschenbuch, US Letter), Schrift, Schriftgröße, Zeilenabstand und Rand gelten für Word und die PDF-Vorlage **Eigene Gestaltung**.
 
 Was dabei verloren geht, steht in [Bekannte Grenzen](GRENZEN.md).
 

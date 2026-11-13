@@ -12,6 +12,12 @@ Stand: Version 0.1.3 (Testfassung), November 2026. Hier steht, was Atramentum be
 - Testfassung 1 (0.1.0) kann sich noch nicht selbst aktualisieren. Ab 0.1.1 geht das über **Hilfe › Nach Updates suchen …**.
 - Es ist immer nur ein Projekt in einem Fenster geöffnet.
 
+## Mac App Store
+
+- Die Fassung aus dem Mac App Store läuft in der Sandbox von macOS. Sie öffnet nur Projekte und Ordner, die Sie selbst gewählt, im Finder geöffnet oder hineingezogen haben, und merkt sich diesen Zugriff für die nächsten Starts. Wird ein Projekt außerhalb von Atramentum verschoben, wählen Sie es einmal neu über **Ablage › Öffnen …**.
+- Neue Projekte schlägt sie im eigenen Ordner der App vor. Sie können jeden anderen Ort wählen.
+- Updates kommen über den App Store. Das Rettungswerkzeug gehört nicht dazu, siehe [Rettungsanleitung](RETTUNG.md).
+
 ## Gleichzeitiges Arbeiten und Cloud
 
 - Abgleich zwischen Geräten gibt es über einen Sync-Ordner (siehe Einführung). Eine direkte Anbindung an Cloud-Dienste ist nicht vorgesehen; unter Android braucht der Abgleich deshalb eine Sync-App eines anderen Anbieters. Noch nicht: Verschlüsselung der Pakete (sie liegen lesbar in Ihrem eigenen Cloud-Speicher). Alte Pakete bleiben im Sync-Ordner liegen; neue Geräte lesen dank Schnappschüssen trotzdem nur wenige Dateien. Nutzen die Geräte verschiedene Atramentum-Versionen, übernimmt das ältere Änderungen des neueren erst nach einem Update (es meldet „Update nötig“). Gleichzeitiges Umordnen derselben Kapitel auf zwei Geräten kann eine ungewohnte Reihenfolge ergeben.
@@ -82,8 +88,18 @@ Stand: Version 0.1.3 (Testfassung), November 2026. Hier steht, was Atramentum be
   - Darstellbar sind europäische Zeichen, Anführungszeichen und Gedankenstriche.
   - Emoji, griechische, kyrillische und andere Schriften erscheinen als „?“. Die PDF-Vorschau nennt vor dem Speichern die Anzahl.
 - **Normseite:** Atramentum verwendet eine verbreitete Variante mit 30 Zeilen zu 60 Anschlägen. Fragen Sie Ihren Verlag, ob er eine andere wünscht.
-- **Word:** Die Datei ist schlicht gehalten (Times New Roman 12 pt, 1,5-zeilig) und eher für das Lektorat gedacht als für einen fertigen Satz.
+- **Word:** Die Datei ist schlicht gehalten (Standard: Times New Roman 12 pt, 1,5-zeilig, A4) und eher für das Lektorat gedacht als für einen fertigen Satz. Unter **Ausgabe gestalten …** lassen sich Format, Schrift (Times New Roman oder Courier New), Größe, Zeilenabstand und Rand ändern.
+- **Ausgabe gestalten:** Zur Wahl stehen nur Times und Courier, weil das PDF die Standardschriften nutzt und nichts einbettet. Seitenzahlen beginnen nach der Titelei nicht neu, sie wird mitgezählt. Die Gestaltung gilt auf dem Gerät, auf dem sie eingestellt wurde, und wandert nicht durch den Abgleich. In der Sicherung ist sie enthalten. Im E-Book bestimmt das Lesegerät Schrift und Seitenformat; dort wirken Titelei, Widmung, Impressum und Szenentrenner.
 - **E-Book (EPUB 3):** Eine schlichte, gut lesbare Gestaltung ohne Wahl von Schriften oder Vorlagen. Kommentare kommen nicht ins Buch, Fußnoten werden E-Book-Fußnoten. Das Titelbild muss ein PNG- oder JPEG-Bild sein. Geprüft wird jedes Buch-Beispiel mit epubcheck, dem Prüfwerkzeug des W3C. Für Kindle laden Sie die EPUB-Datei bei Amazon KDP hoch; ein eigenes Kindle-Format erzeugt Atramentum nicht.
+
+## Vorlesen
+
+- Die Stimme kommt vom System. Wie natürlich sie klingt und welche Sprachen es gibt, hängt vom Gerät ab.
+- **Android und Linux:** Die Webansicht hat dort meist keine eigene Sprachausgabe. Atramentum spricht dann über die Sprachausgabe des Systems (Android: TextToSpeech, Linux: speech-dispatcher), aber ohne mitlaufende Markierung. Unter Linux muss `speech-dispatcher` installiert sein.
+
+## Geteilte Ansicht
+
+- Das zweite Blatt ist nur zum Lesen. Geschrieben wird immer im Haupttext. Zeigt das zweite Blatt dieselbe Szene, aktualisiert es sich nach jedem Speichern.
 
 ## Größe
 

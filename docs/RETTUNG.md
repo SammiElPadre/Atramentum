@@ -25,6 +25,7 @@ Atramentum legt beim Arbeiten etwa einmal täglich eine Sicherung jedes geöffne
 | System | Ordner |
 | --- | --- |
 | Mac | `~/Library/Application Support/io.github.sammielpadre.atramentum/Sicherungen/` |
+| Mac (aus dem App Store) | `~/Library/Containers/io.github.sammielpadre.atramentum/Data/Library/Application Support/io.github.sammielpadre.atramentum/Sicherungen/` |
 | Windows | `%APPDATA%\io.github.sammielpadre.atramentum\Sicherungen\` |
 | Linux | `~/.local/share/io.github.sammielpadre.atramentum/Sicherungen/` |
 
@@ -43,7 +44,7 @@ Haben Sie mit **Ablage › Sicherung erstellen …** selbst Sicherungen angelegt
 
 ## 5. Rettungswerkzeug
 
-Öffnet Atramentum das Projekt gar nicht mehr, holt das Rettungswerkzeug die Texte heraus. Auf dem Mac liegt es in Atramentum selbst, für Windows und Linux gibt es es als eigene Datei auf der Download-Seite (`atramentum-rettung-windows-x64.exe`, `atramentum-rettung-linux-x64`). Es arbeitet nur lesend: Am Projekt ändert es nichts, auch keine Umstellung des Dateiformats. Es liest auch ältere und neuere Projektversionen sowie beschädigte Dateien, so weit sie lesbar sind.
+Öffnet Atramentum das Projekt gar nicht mehr, holt das Rettungswerkzeug die Texte heraus. Auf dem Mac liegt es in Atramentum selbst (nicht in der Fassung aus dem Mac App Store: Laden Sie dafür Atramentum von der Download-Seite; beide Fassungen lassen sich nebeneinander nutzen), für Windows und Linux gibt es es als eigene Datei auf der Download-Seite (`atramentum-rettung-windows-x64.exe`, `atramentum-rettung-linux-x64`). Es arbeitet nur lesend: Am Projekt ändert es nichts, auch keine Umstellung des Dateiformats. Es liest auch ältere und neuere Projektversionen sowie beschädigte Dateien, so weit sie lesbar sind.
 
 1. Öffnen Sie das Programm **Terminal** (unter Programme › Dienstprogramme).
 2. Tippen Sie den folgenden Befehl mit einem Leerzeichen am Ende, aber drücken Sie noch nicht ↩:
