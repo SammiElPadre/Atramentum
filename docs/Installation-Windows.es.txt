@@ -1,0 +1,79 @@
+ATRAMENTUM PARA WINDOWS – INSTALACIÓN (VERSIÓN DE PRUEBA)
+=========================================================
+
+Atramentum es gratuito. No hay versión de pago, ni cuenta, ni registro.
+Atramentum no necesita internet y nunca envía sus textos ni sus datos
+personales a ninguna parte. Solo si usted lo permite, consulta en GitHub
+si hay una versión nueva, como máximo una vez al día.
+
+Requisitos: Windows 10 u 11, 64 bits.
+
+Esta es una versión de prueba. Haga copias de seguridad con regularidad
+(Archivo > Crear copia de seguridad …) e informe de todo lo que observe.
+
+
+1. Instalar
+-----------
+Haga doble clic en «Atramentum_<versión>_x64-setup.exe».
+
+Atramentum no está (todavía) firmado con un certificado de Microsoft. Por
+eso Windows muestra la primera vez el aviso «Windows protegió su PC»:
+
+  a) Haga clic en «Más información».
+  b) Haga clic en «Ejecutar de todas formas».
+
+La instalación no necesita derechos de administrador. Si a un sistema
+antiguo le falta el entorno de ejecución Microsoft Edge WebView2, el
+instalador lo descarga (para ello necesita conexión a internet una vez).
+
+
+2. Actualizar
+-------------
+Atramentum le ofrece las actualizaciones por sí mismo (Ayuda > Buscar
+actualizaciones …): con un clic descarga, verifica e instala la nueva
+versión. A mano: descargue la nueva versión y vuelva a ejecutar el
+instalador. Sus proyectos no se ven afectados: no se guardan en la
+aplicación, sino en la carpeta «Atramentum» de su carpeta de usuario
+(C:\Users\<nombre>\Atramentum).
+Cuando cambia el formato de archivo, Atramentum hace automáticamente una
+copia de seguridad del proyecto antes de convertirlo.
+
+
+3. Desinstalar
+--------------
+  - Aplicación: Configuración > Aplicaciones > Aplicaciones instaladas >
+    Atramentum > Desinstalar.
+  - Ajustes y copias de seguridad diarias automáticas (opcional):
+      %APPDATA%\io.github.sammielpadre.atramentum
+      %LOCALAPPDATA%\io.github.sammielpadre.atramentum
+  - Sus proyectos de la carpeta «Atramentum» de su carpeta de usuario NO
+    se eliminan. Bórrela solo si de verdad ya no necesita sus textos.
+
+
+4. Herramienta de rescate
+-------------------------
+«atramentum-rettung.exe» lee un proyecto sin la aplicación y guarda todos
+los textos como archivos legibles, por si algún día Atramentum no se
+inicia:
+
+    atramentum-rettung.exe "C:\Users\<nombre>\Atramentum\Mi novela.atramentum" "C:\Rescate"
+
+El proyecto en sí no se modifica. Cierre Atramentum antes.
+
+
+5. Verificar la descarga
+------------------------
+En PowerShell:
+
+    Get-FileHash .\Atramentum_*_x64-setup.exe -Algorithm SHA256
+
+El valor debe coincidir con el de SHA256SUMMEN.txt.
+
+
+Diferencias con la versión para Mac
+-----------------------------------
+  - Los atajos usan Ctrl en lugar de ⌘ (los menús los muestran).
+  - Título 1/2 y Párrafo normal: Ctrl+Mayús+1/2/0
+    (en Windows, Ctrl+Alt equivale a AltGr y se tragaría caracteres).
+  - Pantalla completa: F11. Emoji: tecla Windows + punto.
+  - El dictado aún no está disponible en esta versión.

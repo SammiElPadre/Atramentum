@@ -1,0 +1,76 @@
+ATRAMENTUM – INSTALACIÓN (MAC)
+==============================
+
+Atramentum es gratuito. No hay versión de pago, ni cuenta, ni registro.
+Atramentum no necesita internet y nunca envía sus textos ni sus datos
+personales a ninguna parte. Solo si usted lo permite, consulta en GitHub
+si hay una versión nueva, como máximo una vez al día.
+
+Requisitos: macOS 13 (Ventura) o posterior, Apple silicon o Intel.
+
+
+1. Instalar
+-----------
+Arrastre «Atramentum», dentro de esta imagen de disco, a «Aplicaciones».
+Después puede cerrar esta ventana y expulsar la imagen de disco.
+
+
+2. Primer inicio
+----------------
+Atramentum no está notarizado por Apple, por eso macOS muestra un aviso
+la primera vez que lo abre. Esto solo ocurre una vez.
+
+  a) Haga doble clic en Atramentum, en «Aplicaciones».
+     macOS indica que no puede verificar Atramentum. Haga clic en
+     «OK» ("Done"), no en «Trasladar a la papelera» ("Move to Trash").
+  b) Abra Ajustes del Sistema > Privacidad y seguridad.
+     Más abajo verá un aviso sobre «Atramentum».
+     Haga clic en «Abrir igualmente» ("Open Anyway").
+  c) Confirme con «Abrir» y su contraseña o Touch ID.
+
+A partir de entonces, Atramentum se inicia con normalidad.
+
+Si macOS indica en cambio que Atramentum «está dañado», el archivo se
+alteró durante la descarga. Descárguelo de nuevo desde la página oficial
+y compare la suma de verificación (véase el punto 5).
+
+
+3. Actualizar
+-------------
+Atramentum le ofrece las actualizaciones por sí mismo (Ayuda o
+Atramentum > Buscar actualizaciones …): con un clic descarga, verifica e
+instala la nueva versión.
+A mano: descargue la nueva versión, vuelva a arrastrarla a «Aplicaciones»
+y elija «Reemplazar». Sus proyectos no se ven afectados: no se guardan en
+la aplicación, sino en la carpeta «Atramentum» de su carpeta de inicio.
+Cuando cambia el formato de archivo, Atramentum hace automáticamente una
+copia de seguridad del proyecto antes de convertirlo.
+
+
+4. Desinstalar
+--------------
+  - Aplicación: mueva «Atramentum» de «Aplicaciones» a la Papelera.
+  - Ajustes y copias de seguridad automáticas (opcional), en el Finder
+    mediante Ir > Ir a la carpeta…:
+      ~/Library/Application Support/io.github.sammielpadre.atramentum
+      ~/Library/WebKit/io.github.sammielpadre.atramentum
+      ~/Library/Caches/io.github.sammielpadre.atramentum
+  - Sus proyectos están en ~/Atramentum (o donde los haya creado).
+    NO se eliminan al desinstalar. Borre esa carpeta solo si de verdad
+    ya no necesita sus textos.
+
+Nota: la carpeta «Application Support» contiene las copias de seguridad
+diarias automáticas de sus proyectos. Consérvela si tiene dudas.
+
+
+5. Verificar la descarga
+------------------------
+Para cada versión se publica una suma de verificación SHA-256. En el
+Terminal:
+
+    shasum -a 256 ~/Downloads/Atramentum-*.dmg
+
+El valor que aparece debe coincidir con el publicado.
+
+
+Ayuda y comentarios: en Atramentum, en el menú Ayuda.

@@ -1,0 +1,78 @@
+ATRAMENTUM PARA LINUX – INSTALACIÓN (VERSIÓN DE PRUEBA)
+=======================================================
+
+Atramentum es gratuito. No hay versión de pago, ni cuenta, ni registro.
+Atramentum no necesita internet y nunca envía sus textos ni sus datos
+personales a ninguna parte. Solo si usted lo permite, consulta en GitHub
+si hay una versión nueva, como máximo una vez al día.
+
+Requisitos: Linux de 64 bits (x86_64) con entorno de escritorio, por
+ejemplo Ubuntu 22.04 o posterior, Debian 12, Fedora 39 o Linux Mint 21.
+
+Esta es una versión de prueba. Haga copias de seguridad con regularidad
+(Archivo > Crear copia de seguridad …) e informe de todo lo que observe.
+
+
+1. Instalar – dos opciones
+--------------------------
+a) Ubuntu, Debian, Mint (recomendado): el paquete .deb
+
+       sudo apt install ./Atramentum_<versión>_amd64.deb
+
+   Después, Atramentum aparece en el menú de aplicaciones.
+
+b) Todas las demás distribuciones: la AppImage (sin instalación)
+
+       chmod +x Atramentum_<versión>_amd64.AppImage
+       ./Atramentum_<versión>_amd64.AppImage
+
+   Si el sistema indica que falta «libfuse.so.2»: en Ubuntu 24.04
+   «sudo apt install libfuse2t64», en versiones anteriores
+   «sudo apt install libfuse2».
+
+La exportación a PDF en Times usa la fuente «Liberation Serif» (paquete
+fonts-liberation, normalmente ya instalado). Sin ella, solo está
+disponible la plantilla «Página normalizada» (Courier).
+
+
+2. Actualizar
+-------------
+Atramentum le ofrece las actualizaciones por sí mismo (Ayuda > Buscar
+actualizaciones …). La AppImage se sustituye directamente; con el paquete
+deb, el sistema le pide su contraseña. A mano: instale la nueva versión
+como se indica arriba.
+Sus proyectos están en la carpeta ~/Atramentum y no se ven afectados.
+Cuando cambia el formato de archivo, Atramentum hace automáticamente una
+copia de seguridad del proyecto antes de convertirlo.
+
+
+3. Desinstalar
+--------------
+  - Aplicación: «sudo apt remove atramentum», o borre la AppImage.
+  - Ajustes y copias de seguridad diarias automáticas (opcional):
+      ~/.local/share/io.github.sammielpadre.atramentum
+      ~/.cache/io.github.sammielpadre.atramentum
+  - Sus proyectos de ~/Atramentum NO se eliminan.
+
+
+4. Herramienta de rescate
+-------------------------
+«atramentum-rettung» lee un proyecto sin la aplicación y guarda todos los
+textos como archivos legibles, por si algún día Atramentum no se inicia:
+
+    chmod +x atramentum-rettung
+    ./atramentum-rettung ~/Atramentum/"Mi novela.atramentum" ~/Rescate
+
+
+5. Verificar la descarga
+------------------------
+    sha256sum -c SHA256SUMMEN.txt
+
+
+Diferencias con la versión para Mac
+-----------------------------------
+  - Los atajos usan Ctrl en lugar de ⌘ (los menús los muestran).
+  - Título 1/2 y Párrafo normal: Ctrl+Mayús+1/2/0.
+  - Pantalla completa: F11.
+  - El dictado y el selector de emojis no están disponibles en esta
+    versión.

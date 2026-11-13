@@ -64,3 +64,7 @@ footer.fuss a { color: var(--muted); }
   .held { padding-top: 36px; }
   nav.oben { gap: 12px; }
 }
+/* Sprachwahl im Kopf: Kürzel, aktuelle Sprache hervorgehoben */
+.sprachwahl { display: inline-flex; gap: 2px; }
+nav.oben .sprachwahl a { font-size: 13px; letter-spacing: .04em; padding: 2px 5px; border-radius: 4px; color: var(--muted); }
+nav.oben .sprachwahl a[aria-current] { color: var(--ink); font-weight: 600; background: var(--canvas); }

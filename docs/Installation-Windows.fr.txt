@@ -1,0 +1,87 @@
+ATRAMENTUM POUR WINDOWS – INSTALLATION (VERSION DE TEST)
+========================================================
+
+Atramentum est gratuit. Il n'existe ni version payante, ni compte, ni
+inscription. Atramentum n'a pas besoin d'Internet et n'envoie jamais vos
+textes ni vos données personnelles où que ce soit. Uniquement si vous
+l'autorisez, il vérifie sur GitHub, au plus une fois par jour, si une
+nouvelle version est disponible.
+
+Configuration requise : Windows 10 ou 11, 64 bits.
+
+Ceci est une version de test. Faites des sauvegardes régulières
+(Fichier > Créer une sauvegarde …) et signalez tout ce que vous remarquez.
+
+
+1. Installation
+---------------
+Double-cliquez sur « Atramentum_<version>_x64-setup.exe ».
+
+Atramentum n'est pas (encore) signé avec un certificat Microsoft. C'est
+pourquoi Windows affiche la première fois l'avertissement « Windows a
+protégé votre ordinateur » :
+
+  a) Cliquez sur « Informations complémentaires ».
+  b) Cliquez sur « Exécuter quand même ».
+
+Le programme d'installation et Atramentum s'affichent automatiquement
+dans la langue de votre système (en anglais si celle-ci n'est pas prise
+en charge). Pour changer la langue d'Atramentum : Présentation › Langue …
+
+L'installation ne nécessite pas de droits d'administrateur. S'il manque
+le runtime Microsoft Edge WebView2 sur un système plus ancien, le
+programme d'installation le télécharge (une connexion Internet est alors
+nécessaire une seule fois).
+
+
+2. Mise à jour
+--------------
+Atramentum propose lui-même les mises à jour (Aide > Rechercher des mises
+à jour …) : un clic suffit pour télécharger, vérifier et installer la
+nouvelle version. Manuellement : téléchargez la nouvelle version et
+relancez le programme d'installation. Vos projets ne sont pas concernés :
+ils ne sont pas enregistrés dans l'application, mais dans le dossier
+« Atramentum » de votre dossier utilisateur (C:\Users\<nom>\Atramentum).
+Lorsque le format de fichier change, Atramentum sauvegarde
+automatiquement le projet avant de le convertir.
+
+
+3. Désinstallation
+------------------
+  - Application : Paramètres > Applications > Applications installées >
+    Atramentum > Désinstaller.
+  - Réglages et sauvegardes quotidiennes automatiques (facultatif) :
+      %APPDATA%\io.github.sammielpadre.atramentum
+      %LOCALAPPDATA%\io.github.sammielpadre.atramentum
+  - Vos projets dans le dossier « Atramentum » de votre dossier
+    utilisateur ne sont PAS supprimés. Ne le supprimez que si vous n'avez
+    vraiment plus besoin de vos textes.
+
+
+4. Outil de secours
+-------------------
+« atramentum-rettung.exe » lit un projet sans l'application et enregistre
+tous les textes sous forme de fichiers lisibles, au cas où Atramentum ne
+démarrerait plus :
+
+    atramentum-rettung.exe "C:\Users\<nom>\Atramentum\Mon roman.atramentum" "C:\Secours"
+
+Le projet lui-même n'est pas modifié. Fermez d'abord Atramentum.
+
+
+5. Vérifier le téléchargement
+-----------------------------
+Dans PowerShell :
+
+    Get-FileHash .\Atramentum_*_x64-setup.exe -Algorithm SHA256
+
+La valeur doit correspondre à celle indiquée dans SHA256SUMMEN.txt.
+
+
+Différences avec la version Mac
+-------------------------------
+  - Les raccourcis utilisent Ctrl au lieu de ⌘ (les menus les indiquent).
+  - Titre 1/2 et paragraphe normal : Ctrl+Maj+1/2/0
+    (Ctrl+Alt correspond à AltGr sous Windows et avalerait des caractères).
+  - Plein écran : F11. Emoji : touche Windows + point.
+  - La dictée n'est pas encore disponible dans cette version.
