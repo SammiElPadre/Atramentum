@@ -12,6 +12,11 @@ Stand: Version 0.1.3 (Testfassung), November 2026. Hier steht, was Atramentum be
 - Testfassung 1 (0.1.0) kann sich noch nicht selbst aktualisieren. Ab 0.1.1 geht das über **Hilfe › Nach Updates suchen …**.
 - Es ist immer nur ein Projekt in einem Fenster geöffnet.
 
+## Projekt umbenennen
+
+- Auf dem Computer ändert „Projekt umbenennen“ den Namen im Programm, nicht den Dateinamen. Die Fassung aus dem Mac App Store dürfte die Datei aus der Sandbox heraus auch gar nicht umbenennen.
+- Benennen zwei Geräte dasselbe Projekt kurz nacheinander um, gilt nach dem Abgleich der jüngere Name.
+
 ## Mac App Store
 
 - Die Fassung aus dem Mac App Store läuft in der Sandbox von macOS. Sie öffnet nur Projekte und Ordner, die Sie selbst gewählt, im Finder geöffnet oder hineingezogen haben, und merkt sich diesen Zugriff für die nächsten Starts. Wird ein Projekt außerhalb von Atramentum verschoben, wählen Sie es einmal neu über **Ablage › Öffnen …**.

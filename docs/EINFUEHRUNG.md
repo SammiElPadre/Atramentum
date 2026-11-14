@@ -12,6 +12,10 @@ Atramentum ist ein kostenloses Schreibprogramm für Romane und andere lange Text
 
 Gespeichert wird automatisch, einen Speichern-Befehl brauchen Sie nicht. Unten links zeigt die Statusleiste „Auf diesem Gerät gespeichert“ mit Uhrzeit. Eine Warnung erscheint dort nur, wenn etwas nicht gespeichert werden konnte, etwa weil die Festplatte voll ist. Der Text bleibt in diesem Fall im Fenster stehen, bis das Speichern wieder klappt.
 
+## Projekt umbenennen
+
+**Ablage › Projekt umbenennen …** (oder ein Doppelklick auf den Projektnamen oben links) gibt dem Projekt einen neuen Namen. Er erscheint in der Kopfzeile, in der Liste der zuletzt geöffneten Projekte und als Vorschlag beim Exportieren. Mit eingerichtetem Abgleich heißt das Projekt danach auch auf Ihren anderen Geräten so. Auf iPhone, iPad und Android wird zusätzlich der Projektordner umbenannt. Auf dem Computer bleibt die Projektdatei unter ihrem Namen liegen. Wenn Sie auch sie umbenennen möchten, tun Sie das im Finder bzw. Explorer, während Atramentum geschlossen ist.
+
 ## Kapitel und Szenen
 
 Links sehen Sie den Projektbaum mit Kapiteln und Szenen.
