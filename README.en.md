@@ -40,17 +40,17 @@ Atramentum is built for long fiction: your book is organised in chapters and sce
 ## Download
 
 <!-- DOWNLOAD -->
-**Version 0.1.7** (2026-11-14)
+**Version 0.1.8** (2026-11-18)
 
 | System | Download | Guide |
 |---|---|---|
-| **Mac** (macOS 13+, Apple silicon and Intel) | [Atramentum-0.1.7.dmg](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.7/Atramentum-0.1.7.dmg) (17 MB) | [Installing on Mac](docs/Installation-Mac.en.txt) |
-| **Windows** 10 and 11 (64-bit) | [Atramentum_0.1.7_x64-setup.exe](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.7/Atramentum_0.1.7_x64-setup.exe) (4 MB) | [Installing on Windows](docs/Installation-Windows.en.txt) |
-| **Linux** Ubuntu, Debian, Mint | [Atramentum_0.1.7_amd64.deb](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.7/Atramentum_0.1.7_amd64.deb) (6 MB) | [Installing on Linux](docs/Installation-Linux.en.txt) |
-| **Linux** all others | [Atramentum_0.1.7_amd64.AppImage](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.7/Atramentum_0.1.7_amd64.AppImage) (84 MB) | [Installing on Linux](docs/Installation-Linux.en.txt) |
-| **Android** 7 and later (phone and tablet) | [Atramentum_0.1.7_android.apk](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.7/Atramentum_0.1.7_android.apk) (70 MB) | [Installing on Android](docs/Installation-Android.en.txt) |
+| **Mac** (macOS 13+, Apple silicon and Intel) | [Atramentum-0.1.8.dmg](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.8/Atramentum-0.1.8.dmg) (17 MB) | [Installing on Mac](docs/Installation-Mac.en.txt) |
+| **Windows** 10 and 11 (64-bit) | [Atramentum_0.1.8_x64-setup.exe](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.8/Atramentum_0.1.8_x64-setup.exe) (4 MB) | [Installing on Windows](docs/Installation-Windows.en.txt) |
+| **Linux** Ubuntu, Debian, Mint | [Atramentum_0.1.8_amd64.deb](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.8/Atramentum_0.1.8_amd64.deb) (6 MB) | [Installing on Linux](docs/Installation-Linux.en.txt) |
+| **Linux** all others | [Atramentum_0.1.8_amd64.AppImage](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.8/Atramentum_0.1.8_amd64.AppImage) (84 MB) | [Installing on Linux](docs/Installation-Linux.en.txt) |
+| **Android** 7 and later (phone and tablet) | [Atramentum_0.1.8_android.apk](https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.8/Atramentum_0.1.8_android.apk) (70 MB) | [Installing on Android](docs/Installation-Android.en.txt) |
 
-Checksums and rescue tools: [release page](https://github.com/SammiElPadre/Atramentum/releases/tag/v0.1.7).
+Checksums and rescue tools: [release page](https://github.com/SammiElPadre/Atramentum/releases/tag/v0.1.8).
 <!-- /DOWNLOAD -->
 
 ## First launch

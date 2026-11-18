@@ -1,33 +1,33 @@
 {
-  "version": "0.1.7",
-  "datum": "2026-11-14",
-  "hinweise": "Neu: Projekte lassen sich umbenennen (Ablage › Projekt umbenennen … oder Doppelklick auf den Projektnamen); der neue Name kommt über den Abgleich auch auf die anderen Geräte. Behoben: Auf Telefon und Tablet ließ sich ab dem zweiten Projekt kein neues Projekt mehr anlegen („Am Zielort existiert bereits etwas“). Neue Projekte fragen dort jetzt nach ihrem Namen. Wiederhergestellte Sicherungen und lokale Kopien erscheinen auf dem Mac wieder als Atramentum-Projekt. Dazu alles aus 0.1.6.",
+  "version": "0.1.8",
+  "datum": "2026-11-18",
+  "hinweise": "Gründlich geprüft und verbessert: Code-Review und ein neuer Fingertest, der jeden Menüeintrag auf dem iPhone antippt. Behoben: Beagle-Mode lässt sich auf Telefon und Tablet über das ✕ oben rechts beenden; Schlagwörter landen bei schnellem Szenenwechsel nicht mehr bei der falschen Szene; Duplizieren übernimmt Etikett und Schlagwörter; Fassungsvergleich braucht bei sehr unterschiedlichen Fassungen viel weniger Speicher; Vorlesen startet und stoppt zuverlässig (auch auf Android); auf dem Telefon bleiben Dialogknöpfe über der Tastatur sichtbar, Sprachwahl mit Abbrechen; Übersetzungen korrigiert (fr, es, it, pt, en). Dazu alles aus 0.1.7.",
   "dateien": {
     "mac": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.7/Atramentum-0.1.7.dmg",
-      "sha256": "ce9c4b93728867934d59a6f60dfd5d396033975826a717c2bde7cdeed9084503",
-      "groesse": 16969464
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.8/Atramentum-0.1.8.dmg",
+      "sha256": "e6b6a0f7be6df0d35e226c526a943b7eed1362ac4f9197aa38db98e232952eb5",
+      "groesse": 16975266
     },
     "windows": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.7/Atramentum_0.1.7_x64-setup.exe",
-      "sha256": "81cd754887f5aad07f1102f558aeb7498b1eff4e463e9e7e543ccfc9138a3f7e",
-      "groesse": 4291139
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.8/Atramentum_0.1.8_x64-setup.exe",
+      "sha256": "d5f67468a6af8a507954f2a840c0d0500e4af81f8aa920160470770eaa235208",
+      "groesse": 4300350
     },
     "linux-deb": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.7/Atramentum_0.1.7_amd64.deb",
-      "sha256": "ecbe5c7b260fc9054a4028ca2e209c9986498dd5c004bb00e2d79cdedf734999",
-      "groesse": 6061248
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.8/Atramentum_0.1.8_amd64.deb",
+      "sha256": "4c6e44e5b6dcab05a6a24a0a411e65cb67af1cdb83b12022edafdef1e25f7dbb",
+      "groesse": 6073772
     },
     "linux-appimage": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.7/Atramentum_0.1.7_amd64.AppImage",
-      "sha256": "a24529b07e0ab4367f2abd017438635d9ec1e80aff6751a990a82f6ddf73da99",
-      "groesse": 84208120
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.8/Atramentum_0.1.8_amd64.AppImage",
+      "sha256": "b0c84ed63a245cfc0700058158a3d62495050e5af315d86b522b83145013f3c8",
+      "groesse": 84232696
     },
     "android": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.7/Atramentum_0.1.7_android.apk",
-      "sha256": "4a58fe60a47f4fe9bbed0ffaecdfa1f05ae58278f24d9dbe5719b1d648b3f263",
-      "groesse": 70064675
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.1.8/Atramentum_0.1.8_android.apk",
+      "sha256": "eec557b808fbaa135ad3407f7a803e649257459fb8b81be13fafa8c5a93ea503",
+      "groesse": 70092459
     }
   },
-  "downloads_frueher": 228
+  "downloads_frueher": 294
 }
