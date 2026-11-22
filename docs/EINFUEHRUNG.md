@@ -154,6 +154,14 @@ Legen Sie das Projekt selbst nicht in iCloud Drive, Dropbox oder einen ähnliche
 - **Exportieren** ⇧⌘E: PDF als Normseite, Leseexemplar oder in eigener Gestaltung, Word, E-Book (EPUB, mit Autor und optionalem Titelbild), Markdown oder Text. Der Umfang ist wählbar: ganzes Manuskript, ein Kapitel oder eine Szene. Vor dem PDF sehen Sie eine Vorschau.
 - **Ausgabe gestalten …** (Ablage): Titelseite mit Untertitel und Autor, Widmung und Impressum auf eigenen Seiten, das Zeichen zwischen zwei Szenen (etwa „* * *“ oder „~“) und ob jedes Kapitel auf einer neuen Seite beginnt. Das gilt für PDF, Word und E-Book. Seitenformat (A4, A5, Taschenbuch, US Letter), Schrift, Schriftgröße, Zeilenabstand und Rand gelten für Word und die PDF-Vorlage **Eigene Gestaltung**.
 
+## Ein Buch setzen (Druck und E-Book)
+
+Atramentum setzt Ihr Manuskript als fertiges Buch, druckfertig für Dienste wie BoD, Amazon KDP oder epubli und als schön gesetztes E-Book.
+
+- **Ablage › Ausgabe gestalten …**, Bereich **Buchsatz**: Buchformat (etwa 12 × 19 cm), Schrift (die mitgelieferte Buchschrift EB Garamond oder eine installierte Schrift), Größe und Zeilenabstand, Blocksatz und Silbentrennung, Initialen (groß über zwei bis vier Zeilen, wahlweise mit Zierrahmen), die ersten Wörter eines Kapitels in Kapitälchen, Mediävalziffern, Kapitelzählung (Ziffer, Wort oder römisch), Ornamente für Szenentrenner, Kapitelanfang und Schluss, Kolumnentitel, Inhaltsverzeichnis, Schmutztitel und 3 mm Beschnitt für die Druckerei. Die **Stilvorlagen** „Klassisch“, „Modern“, „Verspielt“ und „Art déco“ stellen alles mit einem Klick passend ein. Die **Probeseite** zeigt sofort, wie ein Kapitelanfang aussieht.
+- **Exportieren › Buch (PDF):** Vorschau als Doppelseiten, dann sichern. Kapitel beginnen auf einer rechten Seite, Schusterjungen und Hurenkinder (einzelne Absatzzeilen am Seitenrand) vermeidet Atramentum, indem es einen Absatz derselben Seite um eine Zeile enger oder weiter setzt. Die Schrift ist eingebettet, der Text bleibt durchsuchbar.
+- **Exportieren › E-Book:** nutzt dieselben Einstellungen. Die Buchschrift ist eingebettet, Trennstellen stehen im Text (so trennen auch Lesegeräte, die selbst nicht trennen), Initialen, Kapitälchen und Ornamente kommen mit.
+
 Was dabei verloren geht, steht in [Bekannte Grenzen](GRENZEN.md).
 
 ## Mehrere Geräte (Abgleich)
