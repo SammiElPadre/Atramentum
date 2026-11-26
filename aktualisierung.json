@@ -1,33 +1,33 @@
 {
-  "version": "0.2.0",
-  "datum": "2026-11-22",
-  "hinweise": "Neu: Buchsatz für Druck und E-Book. Atramentum setzt dein Manuskript als fertiges Buch, druckfertig für BoD, KDP oder epubli: Blocksatz mit Silbentrennung in sechs Sprachen, Initialen (auf Wunsch mit Zierrahmen), Kapitälchen, Mediävalziffern, Ornamente in sechs Stilen, Kolumnentitel, Inhaltsverzeichnis, Kapitel auf der rechten Seite, Beschnitt für die Druckerei, ohne Schusterjungen und Hurenkinder. Sechs Buchformate, eingebaute Buchschrift EB Garamond oder eine installierte Schrift. Stilvorlagen „Klassisch“, „Modern“, „Verspielt“ und „Art déco“ mit sofortiger Probeseite, Vorschau als Doppelseiten. Das E-Book bekommt denselben Satz mit eingebetteter Schrift. Außerdem: Fehlermeldungen in allen sechs Sprachen, Bilder im PDF kleiner. Dazu alles aus 0.1.9.",
+  "version": "0.2.1",
+  "datum": "2026-11-26",
+  "hinweise": "Behoben: Nach einem Update auf iPhone und iPad fand Atramentum zuletzt geöffnete Projekte teils nicht mehr („Kein Atramentum-Projekt“). Die Projekte waren nie weg und öffnen sich jetzt wieder direkt. Auf Telefon und Tablet steht in „Zuletzt geöffnet“ nun „Auf diesem Gerät“ statt einer Ordnerkennung. Dazu alles aus 0.2.0 (Buchsatz für Druck und E-Book).",
   "dateien": {
     "mac": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.0/Atramentum-0.2.0.dmg",
-      "sha256": "ba7ab8528da40a3fe258a76486196b3eb9e3828b1f151ba32c42521ad34f6858",
-      "groesse": 19945042
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.1/Atramentum-0.2.1.dmg",
+      "sha256": "8091e700b710a48796d436ddc4b7cc45ff6ae22f6ee14ed17675af9c65f6ed5c",
+      "groesse": 19941858
     },
     "windows": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.0/Atramentum_0.2.0_x64-setup.exe",
-      "sha256": "688fb3bdaa9a738cc9534aa044fd0925677e98fe3d07f87f1c274b98f0e0b8ad",
-      "groesse": 5392401
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.1/Atramentum_0.2.1_x64-setup.exe",
+      "sha256": "d2b6fd047824b291b683aa81792969f6e9dae47bba5167368f6751fe1e6f25bd",
+      "groesse": 5398736
     },
     "linux-deb": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.0/Atramentum_0.2.0_amd64.deb",
-      "sha256": "4bf49ce71c8d4cd21121ba7f8e0971f47b1ddc0afb825384cd645cf01b5f5d72",
-      "groesse": 7780850
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.1/Atramentum_0.2.1_amd64.deb",
+      "sha256": "5b3feebe1ff779771bbe9c48b97005a95b1d49844b3a2cf0d702096744dc0c1f",
+      "groesse": 7773360
     },
     "linux-appimage": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.0/Atramentum_0.2.0_amd64.AppImage",
-      "sha256": "df8bfeaf73bc2706810cb3f9f37ea0508303518d2625695fcd4f7136f588ae9d",
-      "groesse": 85711352
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.1/Atramentum_0.2.1_amd64.AppImage",
+      "sha256": "6c57596fd06a011dcfa28f8c1d8c7987d73076cac9411d54eee672dd579026d5",
+      "groesse": 85690872
     },
     "android": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.0/Atramentum_0.2.0_android.apk",
-      "sha256": "d6ca0625710ce0179b84514d00a008a4a7bdd97998c6da24d6e5b32f7a06eab9",
-      "groesse": 84654699
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.1/Atramentum_0.2.1_android.apk",
+      "sha256": "b3a81ea40c7891a870b66cc62eebdd9b8ca0946c4daafe22ee2d72dccf62b60a",
+      "groesse": 84675051
     }
   },
-  "downloads_frueher": 349
+  "downloads_frueher": 376
 }

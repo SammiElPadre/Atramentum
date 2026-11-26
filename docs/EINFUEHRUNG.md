@@ -52,6 +52,8 @@ Figuren und Orte haben einen Bogen wie ein Charakterbogen:
 - **Oben:** die wichtigsten Angaben, bei Figuren etwa Rolle, Alter und Aussehen, bei Orten Art, Lage und Eindruck.
 - **Darunter:** freie Notizen.
 
+**Mit Szenen verknüpfen:** Rechts in der Randleiste **Am Rand** steht unter **Figuren und Orte in dieser Szene**, wer in der geöffneten Szene vorkommt. Kommt der Name einer angelegten Figur oder eines Ortes im Text vor, schlägt Atramentum sie unter **Im Text erwähnt** vor; ein Klick verknüpft sie. Andere Einträge (auch Notizen) wählen Sie in **Figur, Ort oder Notiz verknüpfen …**. Ein Klick auf einen verknüpften Eintrag zeigt seine Kurzbeschreibung, **Öffnen** springt zum Bogen, das ✕ löst die Verknüpfung.
+
 Verändert sich eine Figur oder ein Ort im Lauf der Geschichte, legen Sie einen **Stand ab einem Kapitel** an. So kann eine Figur in Kapitel 1 ein Kind sein und ab Kapitel 5 erwachsen. Am Rand zeigt Atramentum immer den Stand, der im gerade geöffneten Kapitel gilt.
 
 ## Pinnwand
