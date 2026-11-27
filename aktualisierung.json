@@ -1,33 +1,33 @@
 {
-  "version": "0.2.1",
-  "datum": "2026-11-26",
-  "hinweise": "Behoben: Nach einem Update auf iPhone und iPad fand Atramentum zuletzt geöffnete Projekte teils nicht mehr („Kein Atramentum-Projekt“). Die Projekte waren nie weg und öffnen sich jetzt wieder direkt. Auf Telefon und Tablet steht in „Zuletzt geöffnet“ nun „Auf diesem Gerät“ statt einer Ordnerkennung. Dazu alles aus 0.2.0 (Buchsatz für Druck und E-Book).",
+  "version": "0.2.2",
+  "datum": "2026-11-27",
+  "hinweise": "Neu: Darstellung › Schreibfläche einrichten – Schriftart, Schriftgröße, Zeilenabstand, Blattbreite (bis zur ganzen Breite) und Blattfarbe für das Schreiben. Statistik zeigt Normseiten. Behoben: Lange Menüs ragten auf dem iPad über den Bildschirm (jetzt scrollbar); im Beagle-Mode füllt das Textfeld die ganze Fläche, Kritzeln mit dem Apple Pencil geht überall; Fokus- und Beagle-Knöpfe beschriftet; Versionsnummer unter Hilfe › Über Atramentum und auf dem Startbildschirm. Dank an alle, die Rückmeldungen geschickt haben.",
   "dateien": {
     "mac": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.1/Atramentum-0.2.1.dmg",
-      "sha256": "8091e700b710a48796d436ddc4b7cc45ff6ae22f6ee14ed17675af9c65f6ed5c",
-      "groesse": 19941858
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.2/Atramentum-0.2.2.dmg",
+      "sha256": "d959671aa669b0bdbe58978b248fa62e2231ea5549beed143e496eca48d9f2e5",
+      "groesse": 19956381
     },
     "windows": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.1/Atramentum_0.2.1_x64-setup.exe",
-      "sha256": "d2b6fd047824b291b683aa81792969f6e9dae47bba5167368f6751fe1e6f25bd",
-      "groesse": 5398736
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.2/Atramentum_0.2.2_x64-setup.exe",
+      "sha256": "46af98ede5c98e46334bc61991525380ca5911183fc0899dbe98f22d0b740058",
+      "groesse": 5409825
     },
     "linux-deb": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.1/Atramentum_0.2.1_amd64.deb",
-      "sha256": "5b3feebe1ff779771bbe9c48b97005a95b1d49844b3a2cf0d702096744dc0c1f",
-      "groesse": 7773360
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.2/Atramentum_0.2.2_amd64.deb",
+      "sha256": "5f37b00fa5872546de795ae765a5fc528c36ab72148aacf08f344df610bab697",
+      "groesse": 7780672
     },
     "linux-appimage": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.1/Atramentum_0.2.1_amd64.AppImage",
-      "sha256": "6c57596fd06a011dcfa28f8c1d8c7987d73076cac9411d54eee672dd579026d5",
-      "groesse": 85690872
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.2/Atramentum_0.2.2_amd64.AppImage",
+      "sha256": "a3d7a6afca675b403d182a46e4cf2750bdc904d25f1891dbeae887c09a532cc4",
+      "groesse": 85707256
     },
     "android": {
-      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.1/Atramentum_0.2.1_android.apk",
-      "sha256": "b3a81ea40c7891a870b66cc62eebdd9b8ca0946c4daafe22ee2d72dccf62b60a",
-      "groesse": 84675051
+      "url": "https://github.com/SammiElPadre/Atramentum/releases/download/v0.2.2/Atramentum_0.2.2_android.apk",
+      "sha256": "aaa64bdd9f76c9d3d5bd36b36b12fd8e1c296901253e8588fada212f1681a8bc",
+      "groesse": 84685379
     }
   },
-  "downloads_frueher": 376
+  "downloads_frueher": 388
 }
